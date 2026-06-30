@@ -22,6 +22,7 @@ TIMEOUT = 20
 TRADES_FETCH_COUNT = 1000  # Deribit'in tek cagrida verdigi pratik ust sinir
 TRADES_KEEP_PER_ASSET = 100
 WHALE_MULTIPLIER = 5  # "whale" esigi: bu pencerede ortalama islem buyuklugunun kac kati
+TOP_CONTRACTS_LIMIT = 20
 
 # SOL ve HYPE'in yeni USDC-marjinli ("linear") opsiyonlari Deribit'te
 # settlement/teminat para birimi USDC altinda listeleniyor; kontrat ismi de
@@ -85,6 +86,7 @@ def process_trades(currency, trades_data):
             "price": t.get("price"),
             "iv": t.get("iv"),
             "amount": amount,
+            "premium_usd": round((t.get("price") or 0) * amount, 2),
             "notional_usd": round(notional_usd, 2),
             "trade_id": t.get("trade_id"),
         })
@@ -170,7 +172,7 @@ def summarize(currency, usdc_data):
             g["put_oi"] += x["oi"]
             g["put_vol"] += x["volume"]
 
-    top_contracts = sorted(rows, key=lambda x: x["volume_usd"], reverse=True)[:10]
+    top_contracts = sorted(rows, key=lambda x: x["volume_usd"], reverse=True)[:TOP_CONTRACTS_LIMIT]
 
     return {
         "currency": currency,
