@@ -12,17 +12,22 @@ uretir.
 import csv
 import json
 import os
+import time
+import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
 
 ASSETS = ["SOL", "HYPE"]
 SUMMARY_URL = "https://www.deribit.com/api/v2/public/get_book_summary_by_currency"
 TRADES_URL = "https://www.deribit.com/api/v2/public/get_last_trades_by_currency"
+CHART_URL = "https://www.deribit.com/api/v2/public/get_tradingview_chart_data"
 TIMEOUT = 20
 TRADES_FETCH_COUNT = 1000  # Deribit'in tek cagrida verdigi pratik ust sinir
 TRADES_KEEP_PER_ASSET = 100
 WHALE_MULTIPLIER = 5  # "whale" esigi: bu pencerede ortalama islem buyuklugunun kac kati
 TOP_CONTRACTS_LIMIT = 20
+CHART_RESOLUTION_MIN = "60"  # 1 saatlik mumlar
+CHART_LOOKBACK_HOURS = 48    # en aktif kontratlar icin son 48 saat
 
 # SOL ve HYPE'in yeni USDC-marjinli ("linear") opsiyonlari Deribit'te
 # settlement/teminat para birimi USDC altinda listeleniyor; kontrat ismi de
@@ -34,11 +39,38 @@ ASSET_PREFIX = {"SOL": "SOL_USDC-", "HYPE": "HYPE_USDC-"}
 
 
 def fetch(url, params):
-    qs = "&".join(f"{k}={v}" for k, v in params.items())
+    qs = urllib.parse.urlencode(params)
     full_url = f"{url}?{qs}"
     req = urllib.request.Request(full_url, headers={"User-Agent": "deribit-options-tracker/1.0"})
     with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
         return json.loads(resp.read().decode("utf-8"))
+
+
+def fetch_chart(instrument_name):
+    """Secilen kontrat icin son CHART_LOOKBACK_HOURS saatlik mum verisini ceker.
+    Tek bir kontrat basarisiz olursa None doner, cagiran taraf bunu atlar."""
+    end_ts = int(time.time() * 1000)
+    start_ts = end_ts - CHART_LOOKBACK_HOURS * 3600 * 1000
+    try:
+        data = fetch(CHART_URL, {
+            "instrument_name": instrument_name,
+            "start_timestamp": start_ts,
+            "end_timestamp": end_ts,
+            "resolution": CHART_RESOLUTION_MIN,
+        })
+        result = data.get("result", {})
+        if result.get("status") != "ok" or not result.get("ticks"):
+            return None
+        return {
+            "ticks": result.get("ticks", []),
+            "open": result.get("open", []),
+            "high": result.get("high", []),
+            "low": result.get("low", []),
+            "close": result.get("close", []),
+            "volume": result.get("volume", []),
+        }
+    except Exception:  # noqa: BLE001 - tek kontrat grafigi patlasa da devam et
+        return None
 
 
 def parse_instrument(name, prefix):
@@ -245,6 +277,16 @@ def main():
                 snapshot["assets"][asset]["trades"] = []
                 snapshot["assets"][asset]["trade_stats"] = {}
                 snapshot["assets"][asset]["trades_error"] = str(exc)
+
+            # En aktif kontratlar icin fiyat gecmisi (mum verisi).
+            # Her kontrat ayri bir API cagrisi gerektirdigi icin sadece
+            # TOP_CONTRACTS_LIMIT kadar kontratla sinirli tutuyoruz.
+            charts = {}
+            for c in snapshot["assets"][asset].get("top_contracts", []):
+                chart = fetch_chart(c["instrument"])
+                if chart:
+                    charts[c["instrument"]] = chart
+            snapshot["assets"][asset]["charts"] = charts
 
     os.makedirs("data", exist_ok=True)
 
