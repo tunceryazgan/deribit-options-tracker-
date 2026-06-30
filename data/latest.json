@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-30T21:17:30.576710+00:00",
+  "timestamp": "2026-06-30T21:23:21.942956+00:00",
   "assets": {
     "SOL": {
       "currency": "SOL",
-      "spot": 73.3092,
+      "spot": 73.2253,
       "total_volume": 252900.0,
       "total_volume_usd": 671723.0199999998,
       "total_oi": 795690.0,
@@ -22601,7 +22601,7 @@
     },
     "HYPE": {
       "currency": "HYPE",
-      "spot": 64.476,
+      "spot": 64.398,
       "total_volume": 40790.0,
       "total_volume_usd": 70026.29,
       "total_oi": 119110.0,
