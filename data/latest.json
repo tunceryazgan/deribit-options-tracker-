@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-06-30T19:59:52.201508+00:00",
+  "assets": {
+    "SOL": {
+      "currency": "SOL",
+      "spot": null,
+      "total_volume": 0,
+      "total_volume_usd": 0,
+      "total_oi": 0,
+      "call_volume": 0,
+      "put_volume": 0,
+      "active_contracts": 0,
+      "by_expiry": [],
+      "by_strike": [],
+      "top_contracts": []
+    },
+    "HYPE": {
+      "currency": "HYPE",
+      "error": "HTTP Error 400: Bad Request"
+    }
+  }
+}
