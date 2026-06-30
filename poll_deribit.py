@@ -21,13 +21,16 @@ ASSETS = ["SOL", "HYPE"]
 SUMMARY_URL = "https://www.deribit.com/api/v2/public/get_book_summary_by_currency"
 TRADES_URL = "https://www.deribit.com/api/v2/public/get_last_trades_by_currency"
 CHART_URL = "https://www.deribit.com/api/v2/public/get_tradingview_chart_data"
+INSTRUMENT_TRADES_URL = "https://www.deribit.com/api/v2/public/get_last_trades_by_instrument_and_time"
 TIMEOUT = 20
 TRADES_FETCH_COUNT = 1000  # Deribit'in tek cagrida verdigi pratik ust sinir
 TRADES_KEEP_PER_ASSET = 100
 WHALE_MULTIPLIER = 5  # "whale" esigi: bu pencerede ortalama islem buyuklugunun kac kati
-TOP_CONTRACTS_LIMIT = 20
+TOP_CONTRACTS_LIMIT = 30
 CHART_RESOLUTION_MIN = "60"  # 1 saatlik mumlar
 CHART_LOOKBACK_HOURS = 168   # en aktif kontratlar icin son 1 hafta
+CONTRACT_TRADES_COUNT = 200  # kontrat basina tutulan maksimum islem sayisi
+CONTRACT_FETCH_DELAY = 0.05  # ardisik isteklerde Deribit'i yormamak icin kucuk bekleme
 
 # SOL ve HYPE'in yeni USDC-marjinli ("linear") opsiyonlari Deribit'te
 # settlement/teminat para birimi USDC altinda listeleniyor; kontrat ismi de
@@ -71,6 +74,49 @@ def fetch_chart(instrument_name):
         }
     except Exception:  # noqa: BLE001 - tek kontrat grafigi patlasa da devam et
         return None
+
+
+def build_trade_record(raw):
+    """Ham Deribit trade objesini dashboard'un bekledigi sade forma cevirir."""
+    amount = raw.get("amount") or 0
+    price = raw.get("price") or 0
+    index_price = raw.get("index_price")
+    notional_usd = amount * index_price if index_price else 0.0
+    return {
+        "ts": raw.get("timestamp"),
+        "direction": raw.get("direction"),
+        "price": price,
+        "iv": raw.get("iv"),
+        "amount": amount,
+        "premium_usd": round(price * amount, 2),
+        "notional_usd": round(notional_usd, 2),
+        "trade_id": raw.get("trade_id"),
+    }
+
+
+def fetch_instrument_trades(instrument_name):
+    """Tek bir kontrat icin son CHART_LOOKBACK_HOURS (1 hafta) suresindeki
+    gercek al/sat islemlerini ceker. Genel currency-bazli son-100-islem
+    havuzuna bagimli degildir, bu yuzden az islem goren kontratlarda da
+    veri doner. Basarisiz olursa bos liste doner."""
+    end_ts = int(time.time() * 1000)
+    start_ts = end_ts - CHART_LOOKBACK_HOURS * 3600 * 1000
+    try:
+        data = fetch(INSTRUMENT_TRADES_URL, {
+            "instrument_name": instrument_name,
+            "start_timestamp": start_ts,
+            "end_timestamp": end_ts,
+            "count": CONTRACT_TRADES_COUNT,
+            "sorting": "desc",
+            "include_old": "true",
+        })
+        result = data.get("result", {})
+        raw_trades = result.get("trades", [])
+        records = [build_trade_record(t) for t in raw_trades]
+        records.sort(key=lambda x: x["ts"] or 0, reverse=True)
+        return records
+    except Exception:  # noqa: BLE001 - tek kontratin islem gecmisi patlasa da devam et
+        return []
 
 
 def parse_instrument(name, prefix):
@@ -278,15 +324,25 @@ def main():
                 snapshot["assets"][asset]["trade_stats"] = {}
                 snapshot["assets"][asset]["trades_error"] = str(exc)
 
-            # En aktif kontratlar icin fiyat gecmisi (mum verisi).
-            # Her kontrat ayri bir API cagrisi gerektirdigi icin sadece
-            # TOP_CONTRACTS_LIMIT kadar kontratla sinirli tutuyoruz.
+            # En aktif kontratlar icin fiyat gecmisi (mum verisi) ve
+            # kendine ozel 1 haftalik al/sat gecmisi. Her kontrat ayri
+            # API cagrilari gerektirdigi icin sadece TOP_CONTRACTS_LIMIT
+            # kadar kontratla sinirli tutuyoruz.
             charts = {}
+            contract_trades = {}
             for c in snapshot["assets"][asset].get("top_contracts", []):
                 chart = fetch_chart(c["instrument"])
                 if chart:
                     charts[c["instrument"]] = chart
+                time.sleep(CONTRACT_FETCH_DELAY)
+
+                trades_for_contract = fetch_instrument_trades(c["instrument"])
+                if trades_for_contract:
+                    contract_trades[c["instrument"]] = trades_for_contract
+                time.sleep(CONTRACT_FETCH_DELAY)
+
             snapshot["assets"][asset]["charts"] = charts
+            snapshot["assets"][asset]["contract_trades"] = contract_trades
 
     os.makedirs("data", exist_ok=True)
 
