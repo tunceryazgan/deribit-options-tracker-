@@ -27,7 +27,7 @@ TRADES_KEEP_PER_ASSET = 100
 WHALE_MULTIPLIER = 5  # "whale" esigi: bu pencerede ortalama islem buyuklugunun kac kati
 TOP_CONTRACTS_LIMIT = 20
 CHART_RESOLUTION_MIN = "60"  # 1 saatlik mumlar
-CHART_LOOKBACK_HOURS = 48    # en aktif kontratlar icin son 48 saat
+CHART_LOOKBACK_HOURS = 168   # en aktif kontratlar icin son 1 hafta
 
 # SOL ve HYPE'in yeni USDC-marjinli ("linear") opsiyonlari Deribit'te
 # settlement/teminat para birimi USDC altinda listeleniyor; kontrat ismi de
