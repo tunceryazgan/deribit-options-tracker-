@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-08-08T10:23:19.006307+00:00",
+  "timestamp": "2026-08-08T10:58:03.129255+00:00",
   "assets": {
     "SOL": {
       "currency": "SOL",
-      "spot": 75.351,
-      "total_volume": 40650.0,
-      "total_volume_usd": 48541.450000000004,
-      "total_oi": 848710.0,
-      "call_volume": 24930.0,
-      "put_volume": 15720.0,
-      "active_contracts": 73,
+      "spot": 75.4525,
+      "total_volume": 41490.0,
+      "total_volume_usd": 50528.25,
+      "total_oi": 849280.0,
+      "call_volume": 24860.0,
+      "put_volume": 16630.0,
+      "active_contracts": 74,
       "by_expiry": [
         {
           "expiry": "10AUG26",
@@ -20,30 +20,30 @@
         },
         {
           "expiry": "14AUG26",
-          "call": 2640.0,
+          "call": 2650.0,
           "put": 1090.0,
-          "usd": 3630.499999999999,
-          "oi": 67400.0
+          "usd": 3639.499999999999,
+          "oi": 67410.0
         },
         {
           "expiry": "21AUG26",
           "call": 11030.0,
-          "put": 8020.0,
-          "usd": 28122.129999999997,
-          "oi": 26980.0
+          "put": 8930.0,
+          "usd": 29981.949999999997,
+          "oi": 27520.0
         },
         {
           "expiry": "25DEC26",
-          "call": 6270.0,
+          "call": 6290.0,
           "put": 310.0,
-          "usd": 7361.9,
-          "oi": 17100.0
+          "usd": 7489.88,
+          "oi": 17120.0
         },
         {
           "expiry": "25SEP26",
-          "call": 2000.0,
+          "call": 1900.0,
           "put": 4760.0,
-          "usd": 7298.19,
+          "usd": 7288.19,
           "oi": 372230.0
         },
         {
@@ -247,23 +247,23 @@
         {
           "strike": 74.0,
           "call_oi": 14630.0,
-          "put_oi": 7510.0,
+          "put_oi": 7390.0,
           "call_vol": 3530.0,
-          "put_vol": 1840.0
+          "put_vol": 2090.0
         },
         {
           "strike": 75.0,
           "call_oi": 67630.0,
-          "put_oi": 17450.0,
+          "put_oi": 17780.0,
           "call_vol": 4860.0,
-          "put_vol": 400.0
+          "put_vol": 730.0
         },
         {
           "strike": 76.0,
-          "call_oi": 16370.0,
-          "put_oi": 3330.0,
-          "call_vol": 3880.0,
-          "put_vol": 200.0
+          "call_oi": 16380.0,
+          "put_oi": 3660.0,
+          "call_vol": 3890.0,
+          "put_vol": 530.0
         },
         {
           "strike": 77.0,
@@ -302,9 +302,9 @@
         },
         {
           "strike": 82.0,
-          "call_oi": 29130.0,
+          "call_oi": 29150.0,
           "put_oi": 2370.0,
-          "call_vol": 1020.0,
+          "call_vol": 1040.0,
           "put_vol": 0.0
         },
         {
@@ -437,7 +437,7 @@
           "strike": 112.0,
           "call_oi": 2530.0,
           "put_oi": 0.0,
-          "call_vol": 100.0,
+          "call_vol": 0.0,
           "put_vol": 0.0
         },
         {
@@ -609,8 +609,8 @@
         {
           "instrument": "SOL_USDC-21AUG26-74-P",
           "type": "P",
-          "volume_usd": 2996.65,
-          "oi": 1650.0
+          "volume_usd": 3371.61,
+          "oi": 1530.0
         },
         {
           "instrument": "SOL_USDC-25DEC26-115-C",
@@ -655,6 +655,12 @@
           "oi": 1040.0
         },
         {
+          "instrument": "SOL_USDC-21AUG26-75-P",
+          "type": "P",
+          "volume_usd": 1134.89,
+          "oi": 580.0
+        },
+        {
           "instrument": "SOL_USDC-25SEP26-60-P",
           "type": "P",
           "volume_usd": 1052.79,
@@ -671,6 +677,12 @@
           "type": "C",
           "volume_usd": 899.82,
           "oi": 1000.0
+        },
+        {
+          "instrument": "SOL_USDC-21AUG26-76-P",
+          "type": "P",
+          "volume_usd": 824.92,
+          "oi": 330.0
         },
         {
           "instrument": "SOL_USDC-25SEP26-55-P",
@@ -695,12 +707,6 @@
           "type": "C",
           "volume_usd": 524.95,
           "oi": 1860.0
-        },
-        {
-          "instrument": "SOL_USDC-21AUG26-75-P",
-          "type": "P",
-          "volume_usd": 474.95,
-          "oi": 250.0
         },
         {
           "instrument": "SOL_USDC-28AUG26-72-C",
@@ -755,15 +761,144 @@
           "type": "C",
           "volume_usd": 282.95,
           "oi": 17820.0
-        },
-        {
-          "instrument": "SOL_USDC-25DEC26-74-C",
-          "type": "C",
-          "volume_usd": 281.97,
-          "oi": 320.0
         }
       ],
       "trades": [
+        {
+          "ts": 1786186673337,
+          "instrument": "SOL_USDC-21AUG26-74-P",
+          "expiry": "21AUG26",
+          "strike": 74.0,
+          "type": "P",
+          "direction": "sell",
+          "price": 1.5,
+          "iv": 35.42,
+          "amount": 130.0,
+          "premium_usd": 195.0,
+          "notional_usd": 9754.91,
+          "trade_id": "USDC-52349277",
+          "is_whale": false
+        },
+        {
+          "ts": 1786186673337,
+          "instrument": "SOL_USDC-21AUG26-74-P",
+          "expiry": "21AUG26",
+          "strike": 74.0,
+          "type": "P",
+          "direction": "sell",
+          "price": 1.5,
+          "iv": 35.42,
+          "amount": 120.0,
+          "premium_usd": 180.0,
+          "notional_usd": 9004.54,
+          "trade_id": "USDC-52349276",
+          "is_whale": false
+        },
+        {
+          "ts": 1786186426505,
+          "instrument": "SOL_USDC-21AUG26-75-P",
+          "expiry": "21AUG26",
+          "strike": 75.0,
+          "type": "P",
+          "direction": "sell",
+          "price": 2.0,
+          "iv": 35.66,
+          "amount": 80.0,
+          "premium_usd": 160.0,
+          "notional_usd": 6000.61,
+          "trade_id": "USDC-52349246",
+          "is_whale": false
+        },
+        {
+          "ts": 1786186426505,
+          "instrument": "SOL_USDC-21AUG26-75-P",
+          "expiry": "21AUG26",
+          "strike": 75.0,
+          "type": "P",
+          "direction": "sell",
+          "price": 2.0,
+          "iv": 35.66,
+          "amount": 250.0,
+          "premium_usd": 500.0,
+          "notional_usd": 18751.9,
+          "trade_id": "USDC-52349245",
+          "is_whale": false
+        },
+        {
+          "ts": 1786186390146,
+          "instrument": "SOL_USDC-14AUG26-76-C",
+          "expiry": "14AUG26",
+          "strike": 76.0,
+          "type": "C",
+          "direction": "sell",
+          "price": 0.9,
+          "iv": 35.01,
+          "amount": 10.0,
+          "premium_usd": 9.0,
+          "notional_usd": 750.07,
+          "trade_id": "USDC-52349242",
+          "is_whale": false
+        },
+        {
+          "ts": 1786186301064,
+          "instrument": "SOL_USDC-25DEC26-82-C",
+          "expiry": "25DEC26",
+          "strike": 82.0,
+          "type": "C",
+          "direction": "buy",
+          "price": 6.4,
+          "iv": 46.63,
+          "amount": 10.0,
+          "premium_usd": 64.0,
+          "notional_usd": 750.09,
+          "trade_id": "USDC-52349223",
+          "is_whale": false
+        },
+        {
+          "ts": 1786186209429,
+          "instrument": "SOL_USDC-25DEC26-82-C",
+          "expiry": "25DEC26",
+          "strike": 82.0,
+          "type": "C",
+          "direction": "buy",
+          "price": 6.4,
+          "iv": 46.73,
+          "amount": 10.0,
+          "premium_usd": 64.0,
+          "notional_usd": 750.18,
+          "trade_id": "USDC-52349221",
+          "is_whale": false
+        },
+        {
+          "ts": 1786186151869,
+          "instrument": "SOL_USDC-21AUG26-76-P",
+          "expiry": "21AUG26",
+          "strike": 76.0,
+          "type": "P",
+          "direction": "sell",
+          "price": 2.5,
+          "iv": 35.1,
+          "amount": 250.0,
+          "premium_usd": 625.0,
+          "notional_usd": 18760.28,
+          "trade_id": "USDC-52349217",
+          "is_whale": false
+        },
+        {
+          "ts": 1786186151869,
+          "instrument": "SOL_USDC-21AUG26-76-P",
+          "expiry": "21AUG26",
+          "strike": 76.0,
+          "type": "P",
+          "direction": "sell",
+          "price": 2.5,
+          "iv": 35.1,
+          "amount": 80.0,
+          "premium_usd": 200.0,
+          "notional_usd": 6003.29,
+          "trade_id": "USDC-52349216",
+          "is_whale": false
+        },
         {
           "ts": 1786183021281,
           "instrument": "SOL_USDC-25SEP26-56-P",
@@ -2128,152 +2263,17 @@
           "notional_usd": 18705.8,
           "trade_id": "USDC-52345058",
           "is_whale": false
-        },
-        {
-          "ts": 1786161398136,
-          "instrument": "SOL_USDC-21AUG26-76-C",
-          "expiry": "21AUG26",
-          "strike": 76.0,
-          "type": "C",
-          "direction": "sell",
-          "price": 1.6,
-          "iv": 36.83,
-          "amount": 100.0,
-          "premium_usd": 160.0,
-          "notional_usd": 7482.32,
-          "trade_id": "USDC-52345057",
-          "is_whale": false
-        },
-        {
-          "ts": 1786161384623,
-          "instrument": "SOL_USDC-21AUG26-76-C",
-          "expiry": "21AUG26",
-          "strike": 76.0,
-          "type": "C",
-          "direction": "sell",
-          "price": 1.6,
-          "iv": 36.5,
-          "amount": 250.0,
-          "premium_usd": 400.0,
-          "notional_usd": 18707.42,
-          "trade_id": "USDC-52345048",
-          "is_whale": false
-        },
-        {
-          "ts": 1786161384623,
-          "instrument": "SOL_USDC-21AUG26-76-C",
-          "expiry": "21AUG26",
-          "strike": 76.0,
-          "type": "C",
-          "direction": "sell",
-          "price": 1.6,
-          "iv": 36.5,
-          "amount": 100.0,
-          "premium_usd": 160.0,
-          "notional_usd": 7482.97,
-          "trade_id": "USDC-52345047",
-          "is_whale": false
-        },
-        {
-          "ts": 1786161380939,
-          "instrument": "SOL_USDC-21AUG26-76-C",
-          "expiry": "21AUG26",
-          "strike": 76.0,
-          "type": "C",
-          "direction": "sell",
-          "price": 1.6,
-          "iv": 36.14,
-          "amount": 250.0,
-          "premium_usd": 400.0,
-          "notional_usd": 18718.12,
-          "trade_id": "USDC-52345041",
-          "is_whale": false
-        },
-        {
-          "ts": 1786161380939,
-          "instrument": "SOL_USDC-21AUG26-76-C",
-          "expiry": "21AUG26",
-          "strike": 76.0,
-          "type": "C",
-          "direction": "sell",
-          "price": 1.6,
-          "iv": 36.14,
-          "amount": 100.0,
-          "premium_usd": 160.0,
-          "notional_usd": 7487.25,
-          "trade_id": "USDC-52345040",
-          "is_whale": false
-        },
-        {
-          "ts": 1786161371211,
-          "instrument": "SOL_USDC-21AUG26-76-C",
-          "expiry": "21AUG26",
-          "strike": 76.0,
-          "type": "C",
-          "direction": "sell",
-          "price": 1.6,
-          "iv": 36.41,
-          "amount": 100.0,
-          "premium_usd": 160.0,
-          "notional_usd": 7486.38,
-          "trade_id": "USDC-52345021",
-          "is_whale": false
-        },
-        {
-          "ts": 1786161371211,
-          "instrument": "SOL_USDC-21AUG26-76-C",
-          "expiry": "21AUG26",
-          "strike": 76.0,
-          "type": "C",
-          "direction": "sell",
-          "price": 1.6,
-          "iv": 36.41,
-          "amount": 250.0,
-          "premium_usd": 400.0,
-          "notional_usd": 18715.95,
-          "trade_id": "USDC-52345020",
-          "is_whale": false
-        },
-        {
-          "ts": 1786161365488,
-          "instrument": "SOL_USDC-21AUG26-76-C",
-          "expiry": "21AUG26",
-          "strike": 76.0,
-          "type": "C",
-          "direction": "sell",
-          "price": 1.6,
-          "iv": 36.31,
-          "amount": 250.0,
-          "premium_usd": 400.0,
-          "notional_usd": 18720.67,
-          "trade_id": "USDC-52344974",
-          "is_whale": false
-        },
-        {
-          "ts": 1786161365488,
-          "instrument": "SOL_USDC-21AUG26-76-C",
-          "expiry": "21AUG26",
-          "strike": 76.0,
-          "type": "C",
-          "direction": "sell",
-          "price": 1.7,
-          "iv": 38.09,
-          "amount": 100.0,
-          "premium_usd": 170.0,
-          "notional_usd": 7488.27,
-          "trade_id": "USDC-52344973",
-          "is_whale": false
         }
       ],
       "trade_stats": {
         "count": 100,
-        "avg_notional": 9636.2,
-        "whale_threshold": 48180.98,
-        "buy_notional": 448200.07,
-        "sell_notional": 515419.49,
-        "buy_pct": 46.5,
-        "latest_iv": 58.24,
-        "avg_iv": 58.67
+        "avg_notional": 9218.56,
+        "whale_threshold": 46092.8,
+        "buy_notional": 449700.34,
+        "sell_notional": 472155.74,
+        "buy_pct": 48.8,
+        "latest_iv": 35.42,
+        "avg_iv": 58.79
       },
       "charts": {
         "SOL_USDC-21AUG26-72-P": {
@@ -3213,7 +3213,7 @@
             0,
             100.0,
             870.0,
-            0
+            250.0
           ]
         },
         "SOL_USDC-25DEC26-115-C": {
@@ -7796,6 +7796,32 @@
             0
           ]
         },
+        "SOL_USDC-21AUG26-75-P": {
+          "ticks": [
+            1786179600000,
+            1786183200000
+          ],
+          "open": [
+            1.9,
+            2.0
+          ],
+          "high": [
+            1.9,
+            2.0
+          ],
+          "low": [
+            1.9,
+            2.0
+          ],
+          "close": [
+            1.9,
+            2.0
+          ],
+          "volume": [
+            250.0,
+            330.0
+          ]
+        },
         "SOL_USDC-25SEP26-60-P": {
           "ticks": [
             1785578400000,
@@ -9000,6 +9026,26 @@
             0,
             0,
             0
+          ]
+        },
+        "SOL_USDC-21AUG26-76-P": {
+          "ticks": [
+            1786183200000
+          ],
+          "open": [
+            2.5
+          ],
+          "high": [
+            2.5
+          ],
+          "low": [
+            2.5
+          ],
+          "close": [
+            2.5
+          ],
+          "volume": [
+            330.0
           ]
         },
         "SOL_USDC-25SEP26-55-P": {
@@ -10819,32 +10865,6 @@
             0,
             0,
             0,
-            0
-          ]
-        },
-        "SOL_USDC-21AUG26-75-P": {
-          "ticks": [
-            1786179600000,
-            1786183200000
-          ],
-          "open": [
-            1.9,
-            1.9
-          ],
-          "high": [
-            1.9,
-            1.9
-          ],
-          "low": [
-            1.9,
-            1.9
-          ],
-          "close": [
-            1.9,
-            1.9
-          ],
-          "volume": [
-            250.0,
             0
           ]
         },
@@ -16895,254 +16915,6 @@
             0,
             0
           ]
-        },
-        "SOL_USDC-25DEC26-74-C": {
-          "ticks": [
-            1786046400000,
-            1786050000000,
-            1786053600000,
-            1786057200000,
-            1786060800000,
-            1786064400000,
-            1786068000000,
-            1786071600000,
-            1786075200000,
-            1786078800000,
-            1786082400000,
-            1786086000000,
-            1786089600000,
-            1786093200000,
-            1786096800000,
-            1786100400000,
-            1786104000000,
-            1786107600000,
-            1786111200000,
-            1786114800000,
-            1786118400000,
-            1786122000000,
-            1786125600000,
-            1786129200000,
-            1786132800000,
-            1786136400000,
-            1786140000000,
-            1786143600000,
-            1786147200000,
-            1786150800000,
-            1786154400000,
-            1786158000000,
-            1786161600000,
-            1786165200000,
-            1786168800000,
-            1786172400000,
-            1786176000000,
-            1786179600000,
-            1786183200000
-          ],
-          "open": [
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            9.4,
-            9.4,
-            9.4,
-            9.4,
-            9.4,
-            9.4,
-            9.4,
-            9.4
-          ],
-          "high": [
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            9.4,
-            9.4,
-            9.4,
-            9.4,
-            9.4,
-            9.4,
-            9.4,
-            9.4
-          ],
-          "low": [
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            9.4,
-            9.4,
-            9.4,
-            9.4,
-            9.4,
-            9.4,
-            9.4,
-            9.4
-          ],
-          "close": [
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            8.7,
-            9.4,
-            9.4,
-            9.4,
-            9.4,
-            9.4,
-            9.4,
-            9.4,
-            9.4
-          ],
-          "volume": [
-            320.0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            30.0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
         }
       },
       "contract_trades": {
@@ -17866,6 +17638,26 @@
         ],
         "SOL_USDC-21AUG26-74-P": [
           {
+            "ts": 1786186673337,
+            "direction": "sell",
+            "price": 1.5,
+            "iv": 35.42,
+            "amount": 130.0,
+            "premium_usd": 195.0,
+            "notional_usd": 9754.91,
+            "trade_id": "USDC-52349277"
+          },
+          {
+            "ts": 1786186673337,
+            "direction": "sell",
+            "price": 1.5,
+            "iv": 35.42,
+            "amount": 120.0,
+            "premium_usd": 180.0,
+            "notional_usd": 9004.54,
+            "trade_id": "USDC-52349276"
+          },
+          {
             "ts": 1786182000476,
             "direction": "buy",
             "price": 1.5,
@@ -18430,6 +18222,38 @@
             "trade_id": "USDC-52348250"
           }
         ],
+        "SOL_USDC-21AUG26-75-P": [
+          {
+            "ts": 1786186426505,
+            "direction": "sell",
+            "price": 2.0,
+            "iv": 35.66,
+            "amount": 80.0,
+            "premium_usd": 160.0,
+            "notional_usd": 6000.61,
+            "trade_id": "USDC-52349246"
+          },
+          {
+            "ts": 1786186426505,
+            "direction": "sell",
+            "price": 2.0,
+            "iv": 35.66,
+            "amount": 250.0,
+            "premium_usd": 500.0,
+            "notional_usd": 18751.9,
+            "trade_id": "USDC-52349245"
+          },
+          {
+            "ts": 1786181711756,
+            "direction": "buy",
+            "price": 1.9,
+            "iv": 32.85,
+            "amount": 250.0,
+            "premium_usd": 475.0,
+            "notional_usd": 18708.2,
+            "trade_id": "USDC-52348246"
+          }
+        ],
         "SOL_USDC-25SEP26-60-P": [
           {
             "ts": 1786104621921,
@@ -18554,6 +18378,28 @@
             "premium_usd": 90.0,
             "notional_usd": 7414.92,
             "trade_id": "USDC-52329357"
+          }
+        ],
+        "SOL_USDC-21AUG26-76-P": [
+          {
+            "ts": 1786186151869,
+            "direction": "sell",
+            "price": 2.5,
+            "iv": 35.1,
+            "amount": 250.0,
+            "premium_usd": 625.0,
+            "notional_usd": 18760.28,
+            "trade_id": "USDC-52349217"
+          },
+          {
+            "ts": 1786186151869,
+            "direction": "sell",
+            "price": 2.5,
+            "iv": 35.1,
+            "amount": 80.0,
+            "premium_usd": 200.0,
+            "notional_usd": 6003.29,
+            "trade_id": "USDC-52349216"
           }
         ],
         "SOL_USDC-25SEP26-55-P": [
@@ -18802,18 +18648,6 @@
             "premium_usd": 70.0,
             "notional_usd": 7389.1,
             "trade_id": "USDC-52333726"
-          }
-        ],
-        "SOL_USDC-21AUG26-75-P": [
-          {
-            "ts": 1786181711756,
-            "direction": "buy",
-            "price": 1.9,
-            "iv": 32.85,
-            "amount": 250.0,
-            "premium_usd": 475.0,
-            "notional_usd": 18708.2,
-            "trade_id": "USDC-52348246"
           }
         ],
         "SOL_USDC-28AUG26-72-C": [
@@ -19223,29 +19057,17 @@
             "notional_usd": 19246.14,
             "trade_id": "USDC-52324584"
           }
-        ],
-        "SOL_USDC-25DEC26-74-C": [
-          {
-            "ts": 1786159760534,
-            "direction": "buy",
-            "price": 9.4,
-            "iv": 47.49,
-            "amount": 30.0,
-            "premium_usd": 282.0,
-            "notional_usd": 2223.69,
-            "trade_id": "USDC-52344375"
-          }
         ]
       }
     },
     "HYPE": {
       "currency": "HYPE",
-      "spot": 54.763,
-      "total_volume": 29340.0,
-      "total_volume_usd": 64522.849999999984,
+      "spot": 54.798,
+      "total_volume": 29100.0,
+      "total_volume_usd": 64483.99999999998,
       "total_oi": 272930.0,
       "call_volume": 17720.0,
-      "put_volume": 11620.0,
+      "put_volume": 11380.0,
       "active_contracts": 68,
       "by_expiry": [
         {
@@ -19293,8 +19115,8 @@
         {
           "expiry": "9AUG26",
           "call": 1660.0,
-          "put": 2950.0,
-          "usd": 935.5,
+          "put": 2710.0,
+          "usd": 896.6500000000001,
           "oi": 5710.0
         }
       ],
@@ -19409,7 +19231,7 @@
           "call_oi": 4320.0,
           "put_oi": 34150.0,
           "call_vol": 1960.0,
-          "put_vol": 1740.0
+          "put_vol": 1500.0
         },
         {
           "strike": 56.0,
