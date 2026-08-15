@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-08-15T23:23:01.824066+00:00",
+  "timestamp": "2026-08-15T23:41:43.946178+00:00",
   "assets": {
     "SOL": {
       "currency": "SOL",
-      "spot": 76.5478,
-      "total_volume": 42900.0,
-      "total_volume_usd": 66980.65999999999,
+      "spot": 76.5365,
+      "total_volume": 42150.0,
+      "total_volume_usd": 66880.67,
       "total_oi": 982620.0,
-      "call_volume": 21470.0,
+      "call_volume": 20720.0,
       "put_volume": 21430.0,
-      "active_contracts": 48,
+      "active_contracts": 45,
       "by_expiry": [
         {
           "expiry": "16AUG26",
@@ -41,9 +41,9 @@
         },
         {
           "expiry": "25SEP26",
-          "call": 850.0,
+          "call": 100.0,
           "put": 300.0,
-          "usd": 1919.63,
+          "usd": 1819.64,
           "oi": 372550.0
         },
         {
@@ -416,7 +416,7 @@
           "strike": 108.0,
           "call_oi": 2500.0,
           "put_oi": 0.0,
-          "call_vol": 250.0,
+          "call_vol": 0.0,
           "put_vol": 0.0
         },
         {
@@ -458,14 +458,14 @@
           "strike": 118.0,
           "call_oi": 7600.0,
           "put_oi": 0.0,
-          "call_vol": 250.0,
+          "call_vol": 0.0,
           "put_vol": 0.0
         },
         {
           "strike": 120.0,
           "call_oi": 9740.0,
           "put_oi": 20.0,
-          "call_vol": 250.0,
+          "call_vol": 0.0,
           "put_vol": 0.0
         },
         {
@@ -30319,7 +30319,7 @@
     },
     "HYPE": {
       "currency": "HYPE",
-      "spot": 56.807,
+      "spot": 56.943,
       "total_volume": 7580.0,
       "total_volume_usd": 5438.539999999999,
       "total_oi": 299470.0,
