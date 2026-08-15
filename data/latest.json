@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-08-15T17:42:50.529579+00:00",
+  "timestamp": "2026-08-15T17:57:16.464118+00:00",
   "assets": {
     "SOL": {
       "currency": "SOL",
-      "spot": 76.7022,
-      "total_volume": 42210.0,
-      "total_volume_usd": 65940.83999999998,
+      "spot": 76.8032,
+      "total_volume": 42050.0,
+      "total_volume_usd": 65387.94999999997,
       "total_oi": 979850.0,
-      "call_volume": 20630.0,
-      "put_volume": 21580.0,
+      "call_volume": 20720.0,
+      "put_volume": 21330.0,
       "active_contracts": 57,
       "by_expiry": [
         {
           "expiry": "16AUG26",
-          "call": 430.0,
+          "call": 420.0,
           "put": 970.0,
-          "usd": 425.91999999999996,
+          "usd": 422.91999999999996,
           "oi": 3340.0
         },
         {
@@ -27,9 +27,9 @@
         },
         {
           "expiry": "21AUG26",
-          "call": 3680.0,
+          "call": 3780.0,
           "put": 4940.0,
-          "usd": 12005.599999999997,
+          "usd": 12055.589999999997,
           "oi": 99710.0
         },
         {
@@ -49,8 +49,8 @@
         {
           "expiry": "28AUG26",
           "call": 11880.0,
-          "put": 11720.0,
-          "usd": 41456.700000000004,
+          "put": 11470.0,
+          "usd": 40856.82,
           "oi": 441840.0
         }
       ],
@@ -255,8 +255,8 @@
           "strike": 76.0,
           "call_oi": 42260.0,
           "put_oi": 26230.0,
-          "call_vol": 8490.0,
-          "put_vol": 8440.0
+          "call_vol": 8480.0,
+          "put_vol": 8190.0
         },
         {
           "strike": 77.0,
@@ -269,7 +269,7 @@
           "strike": 78.0,
           "call_oi": 4910.0,
           "put_oi": 2890.0,
-          "call_vol": 170.0,
+          "call_vol": 270.0,
           "put_vol": 300.0
         },
         {
@@ -584,7 +584,7 @@
         {
           "instrument": "SOL_USDC-28AUG26-76-P",
           "type": "P",
-          "volume_usd": 10302.94,
+          "volume_usd": 9703.06,
           "oi": 9380.0
         },
         {
@@ -757,6 +757,21 @@
         }
       ],
       "trades": [
+        {
+          "ts": 1786816118667,
+          "instrument": "SOL_USDC-21AUG26-78-C",
+          "expiry": "21AUG26",
+          "strike": 78.0,
+          "type": "C",
+          "direction": "sell",
+          "price": 0.5,
+          "iv": 36.72,
+          "amount": 100.0,
+          "premium_usd": 50.0,
+          "notional_usd": 7556.25,
+          "trade_id": "USDC-52620080",
+          "is_whale": false
+        },
         {
           "ts": 1786815115465,
           "instrument": "SOL_USDC-25DEC26-86-C",
@@ -2241,32 +2256,17 @@
           "notional_usd": 753.5,
           "trade_id": "USDC-52609114",
           "is_whale": false
-        },
-        {
-          "ts": 1786777298003,
-          "instrument": "SOL_USDC-15AUG26-70-C",
-          "expiry": "15AUG26",
-          "strike": 70.0,
-          "type": "C",
-          "direction": "buy",
-          "price": 8.8,
-          "iv": 999.0,
-          "amount": 10.0,
-          "premium_usd": 88.0,
-          "notional_usd": 753.5,
-          "trade_id": "USDC-52609113",
-          "is_whale": false
         }
       ],
       "trade_stats": {
         "count": 100,
-        "avg_notional": 10411.73,
-        "whale_threshold": 52058.67,
-        "buy_notional": 192077.82,
-        "sell_notional": 849095.65,
-        "buy_pct": 18.4,
-        "latest_iv": 45.87,
-        "avg_iv": 73.46
+        "avg_notional": 10479.76,
+        "whale_threshold": 52398.81,
+        "buy_notional": 191324.32,
+        "sell_notional": 856651.9,
+        "buy_pct": 18.3,
+        "latest_iv": 36.72,
+        "avg_iv": 63.64
       },
       "charts": {
         "SOL_USDC-28AUG26-76-C": {
@@ -29749,16 +29749,6 @@
             "premium_usd": 650.0,
             "notional_usd": 18717.65,
             "trade_id": "USDC-52591172"
-          },
-          {
-            "ts": 1786729835981,
-            "direction": "buy",
-            "price": 2.4,
-            "iv": 36.0,
-            "amount": 250.0,
-            "premium_usd": 600.0,
-            "notional_usd": 18828.6,
-            "trade_id": "USDC-52588737"
           }
         ],
         "SOL_USDC-28AUG26-75-P": [
@@ -31751,7 +31741,7 @@
     },
     "HYPE": {
       "currency": "HYPE",
-      "spot": 57.008,
+      "spot": 57.028,
       "total_volume": 13390.0,
       "total_volume_usd": 8041.829999999999,
       "total_oi": 299150.0,
