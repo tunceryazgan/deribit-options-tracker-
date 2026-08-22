@@ -1,50 +1,50 @@
 {
-  "timestamp": "2026-08-22T21:55:43.491585+00:00",
+  "timestamp": "2026-08-22T22:15:05.136661+00:00",
   "assets": {
     "SOL": {
       "currency": "SOL",
-      "spot": 92.9882,
-      "total_volume": 149490.0,
-      "total_volume_usd": 367425.1199999999,
-      "total_oi": 1189140.0,
-      "call_volume": 106140.0,
-      "put_volume": 43350.0,
-      "active_contracts": 224,
+      "spot": 93.6898,
+      "total_volume": 149690.0,
+      "total_volume_usd": 368228.1799999999,
+      "total_oi": 1189180.0,
+      "call_volume": 106750.0,
+      "put_volume": 42940.0,
+      "active_contracts": 225,
       "by_expiry": [
         {
           "expiry": "23AUG26",
-          "call": 28250.0,
-          "put": 13420.0,
-          "usd": 27265.399999999998,
-          "oi": 41300.0
+          "call": 28750.0,
+          "put": 12820.0,
+          "usd": 27285.399999999998,
+          "oi": 40920.0
         },
         {
           "expiry": "24AUG26",
-          "call": 850.0,
+          "call": 1350.0,
           "put": 2110.0,
-          "usd": 2188.0,
-          "oi": 2950.0
+          "usd": 2713.0,
+          "oi": 3450.0
         },
         {
           "expiry": "25DEC26",
-          "call": 18640.0,
-          "put": 5100.0,
-          "usd": 135328.94999999998,
-          "oi": 141880.0
+          "call": 18630.0,
+          "put": 5110.0,
+          "usd": 135344.94999999998,
+          "oi": 141890.0
         },
         {
           "expiry": "25SEP26",
-          "call": 6460.0,
-          "put": 5000.0,
-          "usd": 39928.94999999999,
-          "oi": 461400.0
+          "call": 6450.0,
+          "put": 5080.0,
+          "usd": 39956.95999999999,
+          "oi": 461390.0
         },
         {
           "expiry": "28AUG26",
-          "call": 36020.0,
-          "put": 11680.0,
-          "usd": 100744.77999999998,
-          "oi": 510460.0
+          "call": 35650.0,
+          "put": 11780.0,
+          "usd": 100958.82999999997,
+          "oi": 510380.0
         },
         {
           "expiry": "4SEP26",
@@ -158,7 +158,7 @@
           "call_oi": 800.0,
           "put_oi": 7570.0,
           "call_vol": 0.0,
-          "put_vol": 980.0
+          "put_vol": 1020.0
         },
         {
           "strike": 62.0,
@@ -177,16 +177,16 @@
         {
           "strike": 65.0,
           "call_oi": 2930.0,
-          "put_oi": 10280.0,
+          "put_oi": 10290.0,
           "call_vol": 0.0,
-          "put_vol": 40.0
+          "put_vol": 50.0
         },
         {
           "strike": 66.0,
           "call_oi": 2970.0,
           "put_oi": 10440.0,
           "call_vol": 0.0,
-          "put_vol": 200.0
+          "put_vol": 210.0
         },
         {
           "strike": 68.0,
@@ -205,37 +205,37 @@
         {
           "strike": 70.0,
           "call_oi": 5390.0,
-          "put_oi": 14830.0,
+          "put_oi": 14820.0,
           "call_vol": 10.0,
-          "put_vol": 1050.0
+          "put_vol": 1060.0
         },
         {
           "strike": 71.0,
           "call_oi": 450.0,
           "put_oi": 1410.0,
           "call_vol": 0.0,
-          "put_vol": 20.0
+          "put_vol": 30.0
         },
         {
           "strike": 72.0,
           "call_oi": 5600.0,
           "put_oi": 9570.0,
           "call_vol": 100.0,
-          "put_vol": 170.0
+          "put_vol": 180.0
         },
         {
           "strike": 73.0,
           "call_oi": 690.0,
           "put_oi": 1590.0,
           "call_vol": 0.0,
-          "put_vol": 20.0
+          "put_vol": 30.0
         },
         {
           "strike": 74.0,
           "call_oi": 7200.0,
           "put_oi": 15420.0,
           "call_vol": 20.0,
-          "put_vol": 410.0
+          "put_vol": 420.0
         },
         {
           "strike": 75.0,
@@ -262,14 +262,14 @@
           "strike": 78.0,
           "call_oi": 5990.0,
           "put_oi": 6850.0,
-          "call_vol": 30.0,
+          "call_vol": 40.0,
           "put_vol": 30.0
         },
         {
           "strike": 79.0,
           "call_oi": 1030.0,
           "put_oi": 2450.0,
-          "call_vol": 20.0,
+          "call_vol": 30.0,
           "put_vol": 790.0
         },
         {
@@ -283,7 +283,7 @@
           "strike": 81.0,
           "call_oi": 770.0,
           "put_oi": 1140.0,
-          "call_vol": 20.0,
+          "call_vol": 30.0,
           "put_vol": 150.0
         },
         {
@@ -291,7 +291,7 @@
           "call_oi": 59850.0,
           "put_oi": 5960.0,
           "call_vol": 60.0,
-          "put_vol": 1500.0
+          "put_vol": 1510.0
         },
         {
           "strike": 83.0,
@@ -311,15 +311,15 @@
           "strike": 85.0,
           "call_oi": 13260.0,
           "put_oi": 6160.0,
-          "call_vol": 110.0,
-          "put_vol": 1310.0
+          "call_vol": 120.0,
+          "put_vol": 1320.0
         },
         {
           "strike": 86.0,
           "call_oi": 23520.0,
           "put_oi": 5300.0,
           "call_vol": 60.0,
-          "put_vol": 1610.0
+          "put_vol": 1620.0
         },
         {
           "strike": 87.0,
@@ -330,23 +330,23 @@
         },
         {
           "strike": 88.0,
-          "call_oi": 8890.0,
-          "put_oi": 7860.0,
-          "call_vol": 1220.0,
-          "put_vol": 1350.0
+          "call_oi": 8880.0,
+          "put_oi": 7850.0,
+          "call_vol": 1230.0,
+          "put_vol": 1360.0
         },
         {
           "strike": 89.0,
           "call_oi": 730.0,
           "put_oi": 2250.0,
-          "call_vol": 10.0,
-          "put_vol": 2000.0
+          "call_vol": 20.0,
+          "put_vol": 1510.0
         },
         {
           "strike": 90.0,
           "call_oi": 76770.0,
           "put_oi": 23650.0,
-          "call_vol": 340.0,
+          "call_vol": 330.0,
           "put_vol": 3020.0
         },
         {
@@ -354,27 +354,27 @@
           "call_oi": 570.0,
           "put_oi": 5570.0,
           "call_vol": 0.0,
-          "put_vol": 4550.0
+          "put_vol": 4450.0
         },
         {
           "strike": 92.0,
           "call_oi": 9100.0,
-          "put_oi": 6110.0,
-          "call_vol": 900.0,
-          "put_vol": 2610.0
+          "put_oi": 6100.0,
+          "call_vol": 910.0,
+          "put_vol": 2630.0
         },
         {
           "strike": 93.0,
-          "call_oi": 1880.0,
+          "call_oi": 2130.0,
           "put_oi": 3550.0,
-          "call_vol": 1670.0,
+          "call_vol": 1920.0,
           "put_vol": 3940.0
         },
         {
           "strike": 94.0,
-          "call_oi": 114560.0,
-          "put_oi": 6230.0,
-          "call_vol": 3800.0,
+          "call_oi": 114550.0,
+          "put_oi": 6220.0,
+          "call_vol": 3790.0,
           "put_vol": 4130.0
         },
         {
@@ -386,10 +386,10 @@
         },
         {
           "strike": 96.0,
-          "call_oi": 20430.0,
-          "put_oi": 2280.0,
-          "call_vol": 6380.0,
-          "put_vol": 940.0
+          "call_oi": 20040.0,
+          "put_oi": 2270.0,
+          "call_vol": 6890.0,
+          "put_vol": 950.0
         },
         {
           "strike": 97.0,
@@ -402,21 +402,21 @@
           "strike": 98.0,
           "call_oi": 10140.0,
           "put_oi": 1260.0,
-          "call_vol": 8260.0,
+          "call_vol": 8010.0,
           "put_vol": 50.0
         },
         {
           "strike": 99.0,
-          "call_oi": 2420.0,
+          "call_oi": 2670.0,
           "put_oi": 0.0,
-          "call_vol": 2540.0,
+          "call_vol": 2790.0,
           "put_vol": 0.0
         },
         {
           "strike": 100.0,
-          "call_oi": 16990.0,
+          "call_oi": 16980.0,
           "put_oi": 13610.0,
-          "call_vol": 16280.0,
+          "call_vol": 16290.0,
           "put_vol": 100.0
         },
         {
@@ -444,7 +444,7 @@
           "strike": 104.0,
           "call_oi": 8920.0,
           "put_oi": 90.0,
-          "call_vol": 6220.0,
+          "call_vol": 6020.0,
           "put_vol": 0.0
         },
         {
@@ -626,7 +626,7 @@
           "strike": 200.0,
           "call_oi": 270.0,
           "put_oi": 30.0,
-          "call_vol": 10.0,
+          "call_vol": 0.0,
           "put_vol": 0.0
         },
         {
@@ -654,8 +654,8 @@
         {
           "instrument": "SOL_USDC-28AUG26-100-C",
           "type": "C",
-          "volume_usd": 15215.82,
-          "oi": 5710.0
+          "volume_usd": 15232.82,
+          "oi": 5700.0
         },
         {
           "instrument": "SOL_USDC-25DEC26-104-C",
@@ -678,8 +678,8 @@
         {
           "instrument": "SOL_USDC-28AUG26-96-C",
           "type": "C",
-          "volume_usd": 9193.02,
-          "oi": 11440.0
+          "volume_usd": 9219.02,
+          "oi": 11430.0
         },
         {
           "instrument": "SOL_USDC-28AUG26-102-C",
@@ -690,8 +690,8 @@
         {
           "instrument": "SOL_USDC-28AUG26-88-C",
           "type": "C",
-          "volume_usd": 8191.58,
-          "oi": 1720.0
+          "volume_usd": 8257.57,
+          "oi": 1710.0
         },
         {
           "instrument": "SOL_USDC-25DEC26-120-C",
@@ -702,8 +702,8 @@
         {
           "instrument": "SOL_USDC-28AUG26-94-C",
           "type": "C",
-          "volume_usd": 7803.24,
-          "oi": 95220.0
+          "volume_usd": 7771.24,
+          "oi": 95210.0
         },
         {
           "instrument": "SOL_USDC-25DEC26-110-C",
@@ -720,7 +720,7 @@
         {
           "instrument": "SOL_USDC-28AUG26-98-C",
           "type": "C",
-          "volume_usd": 6018.31,
+          "volume_usd": 5543.36,
           "oi": 3600.0
         },
         {
@@ -780,8 +780,8 @@
         {
           "instrument": "SOL_USDC-28AUG26-94-P",
           "type": "P",
-          "volume_usd": 4489.09,
-          "oi": 730.0
+          "volume_usd": 4498.09,
+          "oi": 720.0
         },
         {
           "instrument": "SOL_USDC-23AUG26-95-P",
@@ -827,6 +827,456 @@
         }
       ],
       "trades": [
+        {
+          "ts": 1787436811549,
+          "instrument": "SOL_USDC-28AUG26-86-P",
+          "expiry": "28AUG26",
+          "strike": 86.0,
+          "type": "P",
+          "direction": "buy",
+          "price": 1.0,
+          "iv": 82.48,
+          "amount": 10.0,
+          "premium_usd": 10.0,
+          "notional_usd": 936.07,
+          "trade_id": "USDC-54176349",
+          "is_whale": false
+        },
+        {
+          "ts": 1787436806655,
+          "instrument": "SOL_USDC-28AUG26-85-P",
+          "expiry": "28AUG26",
+          "strike": 85.0,
+          "type": "P",
+          "direction": "sell",
+          "price": 0.9,
+          "iv": 85.9,
+          "amount": 10.0,
+          "premium_usd": 9.0,
+          "notional_usd": 935.94,
+          "trade_id": "USDC-54176326",
+          "is_whale": false
+        },
+        {
+          "ts": 1787436803576,
+          "instrument": "SOL_USDC-28AUG26-88-P",
+          "expiry": "28AUG26",
+          "strike": 88.0,
+          "type": "P",
+          "direction": "sell",
+          "price": 1.6,
+          "iv": 85.08,
+          "amount": 10.0,
+          "premium_usd": 16.0,
+          "notional_usd": 935.82,
+          "trade_id": "USDC-54176305",
+          "is_whale": false
+        },
+        {
+          "ts": 1787436601280,
+          "instrument": "SOL_USDC-25SEP26-60-P",
+          "expiry": "25SEP26",
+          "strike": 60.0,
+          "type": "P",
+          "direction": "buy",
+          "price": 0.3,
+          "iv": 83.66,
+          "amount": 40.0,
+          "premium_usd": 12.0,
+          "notional_usd": 3739.03,
+          "trade_id": "USDC-54175583",
+          "is_whale": false
+        },
+        {
+          "ts": 1787436552996,
+          "instrument": "SOL_USDC-25SEP26-92-P",
+          "expiry": "25SEP26",
+          "strike": 92.0,
+          "type": "P",
+          "direction": "sell",
+          "price": 7.0,
+          "iv": 69.8,
+          "amount": 10.0,
+          "premium_usd": 70.0,
+          "notional_usd": 935.41,
+          "trade_id": "USDC-54175406",
+          "is_whale": false
+        },
+        {
+          "ts": 1787436551434,
+          "instrument": "SOL_USDC-28AUG26-89-P",
+          "expiry": "28AUG26",
+          "strike": 89.0,
+          "type": "P",
+          "direction": "sell",
+          "price": 1.9,
+          "iv": 84.35,
+          "amount": 10.0,
+          "premium_usd": 19.0,
+          "notional_usd": 935.31,
+          "trade_id": "USDC-54175391",
+          "is_whale": false
+        },
+        {
+          "ts": 1787436360504,
+          "instrument": "SOL_USDC-24AUG26-93-C",
+          "expiry": "24AUG26",
+          "strike": 93.0,
+          "type": "C",
+          "direction": "buy",
+          "price": 1.8,
+          "iv": 72.85,
+          "amount": 250.0,
+          "premium_usd": 450.0,
+          "notional_usd": 23307.12,
+          "trade_id": "USDC-54174329",
+          "is_whale": false
+        },
+        {
+          "ts": 1787436230089,
+          "instrument": "SOL_USDC-24AUG26-99-C",
+          "expiry": "24AUG26",
+          "strike": 99.0,
+          "type": "C",
+          "direction": "buy",
+          "price": 0.3,
+          "iv": 87.14,
+          "amount": 250.0,
+          "premium_usd": 75.0,
+          "notional_usd": 23208.0,
+          "trade_id": "USDC-54173599",
+          "is_whale": false
+        },
+        {
+          "ts": 1787436199102,
+          "instrument": "SOL_USDC-28AUG26-96-C",
+          "expiry": "28AUG26",
+          "strike": 96.0,
+          "type": "C",
+          "direction": "sell",
+          "price": 2.6,
+          "iv": 87.32,
+          "amount": 10.0,
+          "premium_usd": 26.0,
+          "notional_usd": 927.86,
+          "trade_id": "USDC-54173417",
+          "is_whale": false
+        },
+        {
+          "ts": 1787436198102,
+          "instrument": "SOL_USDC-28AUG26-94-C",
+          "expiry": "28AUG26",
+          "strike": 94.0,
+          "type": "C",
+          "direction": "sell",
+          "price": 3.3,
+          "iv": 85.08,
+          "amount": 10.0,
+          "premium_usd": 33.0,
+          "notional_usd": 928.23,
+          "trade_id": "USDC-54173399",
+          "is_whale": false
+        },
+        {
+          "ts": 1787436161994,
+          "instrument": "SOL_USDC-28AUG26-89-C",
+          "expiry": "28AUG26",
+          "strike": 89.0,
+          "type": "C",
+          "direction": "sell",
+          "price": 5.9,
+          "iv": 86.09,
+          "amount": 10.0,
+          "premium_usd": 59.0,
+          "notional_usd": 926.49,
+          "trade_id": "USDC-54173079",
+          "is_whale": false
+        },
+        {
+          "ts": 1787436159373,
+          "instrument": "SOL_USDC-28AUG26-81-C",
+          "expiry": "28AUG26",
+          "strike": 81.0,
+          "type": "C",
+          "direction": "sell",
+          "price": 12.4,
+          "iv": 101.15,
+          "amount": 10.0,
+          "premium_usd": 124.0,
+          "notional_usd": 926.52,
+          "trade_id": "USDC-54173043",
+          "is_whale": false
+        },
+        {
+          "ts": 1787436156106,
+          "instrument": "SOL_USDC-28AUG26-92-C",
+          "expiry": "28AUG26",
+          "strike": 92.0,
+          "type": "C",
+          "direction": "sell",
+          "price": 4.2,
+          "iv": 85.67,
+          "amount": 10.0,
+          "premium_usd": 42.0,
+          "notional_usd": 926.91,
+          "trade_id": "USDC-54172977",
+          "is_whale": false
+        },
+        {
+          "ts": 1787436156040,
+          "instrument": "SOL_USDC-28AUG26-79-C",
+          "expiry": "28AUG26",
+          "strike": 79.0,
+          "type": "C",
+          "direction": "sell",
+          "price": 14.3,
+          "iv": 106.58,
+          "amount": 10.0,
+          "premium_usd": 143.0,
+          "notional_usd": 927.15,
+          "trade_id": "USDC-54172975",
+          "is_whale": false
+        },
+        {
+          "ts": 1787436153983,
+          "instrument": "SOL_USDC-28AUG26-78-C",
+          "expiry": "28AUG26",
+          "strike": 78.0,
+          "type": "C",
+          "direction": "sell",
+          "price": 15.3,
+          "iv": 112.64,
+          "amount": 10.0,
+          "premium_usd": 153.0,
+          "notional_usd": 927.19,
+          "trade_id": "USDC-54172916",
+          "is_whale": false
+        },
+        {
+          "ts": 1787436153503,
+          "instrument": "SOL_USDC-28AUG26-85-C",
+          "expiry": "28AUG26",
+          "strike": 85.0,
+          "type": "C",
+          "direction": "sell",
+          "price": 8.9,
+          "iv": 89.66,
+          "amount": 10.0,
+          "premium_usd": 89.0,
+          "notional_usd": 927.25,
+          "trade_id": "USDC-54172913",
+          "is_whale": false
+        },
+        {
+          "ts": 1787436145839,
+          "instrument": "SOL_USDC-28AUG26-88-C",
+          "expiry": "28AUG26",
+          "strike": 88.0,
+          "type": "C",
+          "direction": "sell",
+          "price": 6.6,
+          "iv": 84.75,
+          "amount": 10.0,
+          "premium_usd": 66.0,
+          "notional_usd": 927.9,
+          "trade_id": "USDC-54172865",
+          "is_whale": false
+        },
+        {
+          "ts": 1787436106751,
+          "instrument": "SOL_USDC-23AUG26-96-C",
+          "expiry": "23AUG26",
+          "strike": 96.0,
+          "type": "C",
+          "direction": "buy",
+          "price": 0.2,
+          "iv": 88.45,
+          "amount": 500.0,
+          "premium_usd": 100.0,
+          "notional_usd": 46474.35,
+          "trade_id": "USDC-54172660",
+          "is_whale": true
+        },
+        {
+          "ts": 1787436096276,
+          "instrument": "SOL_USDC-25DEC26-65-P",
+          "expiry": "25DEC26",
+          "strike": 65.0,
+          "type": "P",
+          "direction": "buy",
+          "price": 2.3,
+          "iv": 62.4,
+          "amount": 10.0,
+          "premium_usd": 23.0,
+          "notional_usd": 929.36,
+          "trade_id": "USDC-54172642",
+          "is_whale": false
+        },
+        {
+          "ts": 1787436071577,
+          "instrument": "SOL_USDC-28AUG26-96-P",
+          "expiry": "28AUG26",
+          "strike": 96.0,
+          "type": "P",
+          "direction": "sell",
+          "price": 5.6,
+          "iv": 85.11,
+          "amount": 10.0,
+          "premium_usd": 56.0,
+          "notional_usd": 929.82,
+          "trade_id": "USDC-54172569",
+          "is_whale": false
+        },
+        {
+          "ts": 1787436067540,
+          "instrument": "SOL_USDC-25SEP26-66-P",
+          "expiry": "25SEP26",
+          "strike": 66.0,
+          "type": "P",
+          "direction": "sell",
+          "price": 0.8,
+          "iv": 83.89,
+          "amount": 10.0,
+          "premium_usd": 8.0,
+          "notional_usd": 929.9,
+          "trade_id": "USDC-54172565",
+          "is_whale": false
+        },
+        {
+          "ts": 1787436067430,
+          "instrument": "SOL_USDC-25SEP26-72-P",
+          "expiry": "25SEP26",
+          "strike": 72.0,
+          "type": "P",
+          "direction": "sell",
+          "price": 1.4,
+          "iv": 78.99,
+          "amount": 10.0,
+          "premium_usd": 14.0,
+          "notional_usd": 929.9,
+          "trade_id": "USDC-54172564",
+          "is_whale": false
+        },
+        {
+          "ts": 1787436067410,
+          "instrument": "SOL_USDC-25SEP26-70-P",
+          "expiry": "25SEP26",
+          "strike": 70.0,
+          "type": "P",
+          "direction": "sell",
+          "price": 1.4,
+          "iv": 85.14,
+          "amount": 10.0,
+          "premium_usd": 14.0,
+          "notional_usd": 929.9,
+          "trade_id": "USDC-54172563",
+          "is_whale": false
+        },
+        {
+          "ts": 1787436067235,
+          "instrument": "SOL_USDC-28AUG26-94-P",
+          "expiry": "28AUG26",
+          "strike": 94.0,
+          "type": "P",
+          "direction": "buy",
+          "price": 4.3,
+          "iv": 83.39,
+          "amount": 10.0,
+          "premium_usd": 43.0,
+          "notional_usd": 930.16,
+          "trade_id": "USDC-54172560",
+          "is_whale": false
+        },
+        {
+          "ts": 1787436057330,
+          "instrument": "SOL_USDC-28AUG26-92-P",
+          "expiry": "28AUG26",
+          "strike": 92.0,
+          "type": "P",
+          "direction": "buy",
+          "price": 3.2,
+          "iv": 81.65,
+          "amount": 10.0,
+          "premium_usd": 32.0,
+          "notional_usd": 929.78,
+          "trade_id": "USDC-54172475",
+          "is_whale": false
+        },
+        {
+          "ts": 1787436047373,
+          "instrument": "SOL_USDC-28AUG26-74-P",
+          "expiry": "28AUG26",
+          "strike": 74.0,
+          "type": "P",
+          "direction": "buy",
+          "price": 0.2,
+          "iv": 109.94,
+          "amount": 10.0,
+          "premium_usd": 2.0,
+          "notional_usd": 929.87,
+          "trade_id": "USDC-54172419",
+          "is_whale": false
+        },
+        {
+          "ts": 1787436047344,
+          "instrument": "SOL_USDC-28AUG26-73-P",
+          "expiry": "28AUG26",
+          "strike": 73.0,
+          "type": "P",
+          "direction": "buy",
+          "price": 0.2,
+          "iv": 115.34,
+          "amount": 10.0,
+          "premium_usd": 2.0,
+          "notional_usd": 929.87,
+          "trade_id": "USDC-54172418",
+          "is_whale": false
+        },
+        {
+          "ts": 1787436047305,
+          "instrument": "SOL_USDC-28AUG26-71-P",
+          "expiry": "28AUG26",
+          "strike": 71.0,
+          "type": "P",
+          "direction": "buy",
+          "price": 0.2,
+          "iv": 126.31,
+          "amount": 10.0,
+          "premium_usd": 2.0,
+          "notional_usd": 929.87,
+          "trade_id": "USDC-54172417",
+          "is_whale": false
+        },
+        {
+          "ts": 1787436047273,
+          "instrument": "SOL_USDC-28AUG26-100-C",
+          "expiry": "28AUG26",
+          "strike": 100.0,
+          "type": "C",
+          "direction": "buy",
+          "price": 1.7,
+          "iv": 92.48,
+          "amount": 10.0,
+          "premium_usd": 17.0,
+          "notional_usd": 929.87,
+          "trade_id": "USDC-54172416",
+          "is_whale": false
+        },
+        {
+          "ts": 1787435891436,
+          "instrument": "SOL_USDC-28AUG26-82-P",
+          "expiry": "28AUG26",
+          "strike": 82.0,
+          "type": "P",
+          "direction": "sell",
+          "price": 0.5,
+          "iv": 84.76,
+          "amount": 10.0,
+          "premium_usd": 5.0,
+          "notional_usd": 928.65,
+          "trade_id": "USDC-54171701",
+          "is_whale": false
+        },
         {
           "ts": 1787435543905,
           "instrument": "SOL_USDC-23AUG26-94-C",
@@ -1876,472 +2326,21 @@
           "notional_usd": 14109.72,
           "trade_id": "USDC-54130729",
           "is_whale": false
-        },
-        {
-          "ts": 1787419954964,
-          "instrument": "SOL_USDC-25DEC26-92-C",
-          "expiry": "25DEC26",
-          "strike": 92.0,
-          "type": "C",
-          "direction": "sell",
-          "price": 14.4,
-          "iv": 61.86,
-          "amount": 250.0,
-          "premium_usd": 3600.0,
-          "notional_usd": 23516.2,
-          "trade_id": "USDC-54130728",
-          "is_whale": false
-        },
-        {
-          "ts": 1787419851314,
-          "instrument": "SOL_USDC-25DEC26-155-C",
-          "expiry": "25DEC26",
-          "strike": 155.0,
-          "type": "C",
-          "direction": "sell",
-          "price": 2.5,
-          "iv": 69.2,
-          "amount": 250.0,
-          "premium_usd": 625.0,
-          "notional_usd": 23495.85,
-          "trade_id": "USDC-54130048",
-          "is_whale": false
-        },
-        {
-          "ts": 1787419851238,
-          "instrument": "SOL_USDC-25DEC26-180-C",
-          "expiry": "25DEC26",
-          "strike": 180.0,
-          "type": "C",
-          "direction": "sell",
-          "price": 1.5,
-          "iv": 72.83,
-          "amount": 250.0,
-          "premium_usd": 375.0,
-          "notional_usd": 23495.85,
-          "trade_id": "USDC-54130041",
-          "is_whale": false
-        },
-        {
-          "ts": 1787419851238,
-          "instrument": "SOL_USDC-25DEC26-150-C",
-          "expiry": "25DEC26",
-          "strike": 150.0,
-          "type": "C",
-          "direction": "sell",
-          "price": 2.8,
-          "iv": 68.44,
-          "amount": 250.0,
-          "premium_usd": 700.0,
-          "notional_usd": 23495.85,
-          "trade_id": "USDC-54130040",
-          "is_whale": false
-        },
-        {
-          "ts": 1787419851159,
-          "instrument": "SOL_USDC-25DEC26-135-C",
-          "expiry": "25DEC26",
-          "strike": 135.0,
-          "type": "C",
-          "direction": "sell",
-          "price": 4.0,
-          "iv": 65.92,
-          "amount": 140.0,
-          "premium_usd": 560.0,
-          "notional_usd": 13157.68,
-          "trade_id": "USDC-54130039",
-          "is_whale": false
-        },
-        {
-          "ts": 1787419851145,
-          "instrument": "SOL_USDC-25DEC26-105-C",
-          "expiry": "25DEC26",
-          "strike": 105.0,
-          "type": "C",
-          "direction": "sell",
-          "price": 9.5,
-          "iv": 62.22,
-          "amount": 250.0,
-          "premium_usd": 2375.0,
-          "notional_usd": 23495.85,
-          "trade_id": "USDC-54130038",
-          "is_whale": false
-        },
-        {
-          "ts": 1787419699646,
-          "instrument": "SOL_USDC-4SEP26-97-P",
-          "expiry": "4SEP26",
-          "strike": 97.0,
-          "type": "P",
-          "direction": "buy",
-          "price": 7.0,
-          "iv": 77.03,
-          "amount": 250.0,
-          "premium_usd": 1750.0,
-          "notional_usd": 23535.65,
-          "trade_id": "USDC-54129049",
-          "is_whale": false
-        },
-        {
-          "ts": 1787419698879,
-          "instrument": "SOL_USDC-4SEP26-90-P",
-          "expiry": "4SEP26",
-          "strike": 90.0,
-          "type": "P",
-          "direction": "buy",
-          "price": 3.3,
-          "iv": 74.91,
-          "amount": 250.0,
-          "premium_usd": 825.0,
-          "notional_usd": 23537.0,
-          "trade_id": "USDC-54129044",
-          "is_whale": false
-        },
-        {
-          "ts": 1787419698852,
-          "instrument": "SOL_USDC-4SEP26-96-C",
-          "expiry": "4SEP26",
-          "strike": 96.0,
-          "type": "C",
-          "direction": "buy",
-          "price": 4.7,
-          "iv": 79.2,
-          "amount": 240.0,
-          "premium_usd": 1128.0,
-          "notional_usd": 22595.52,
-          "trade_id": "USDC-54129038",
-          "is_whale": false
-        },
-        {
-          "ts": 1787419698852,
-          "instrument": "SOL_USDC-25DEC26-155-C",
-          "expiry": "25DEC26",
-          "strike": 155.0,
-          "type": "C",
-          "direction": "sell",
-          "price": 2.5,
-          "iv": 67.82,
-          "amount": 250.0,
-          "premium_usd": 625.0,
-          "notional_usd": 23535.65,
-          "trade_id": "USDC-54129037",
-          "is_whale": false
-        },
-        {
-          "ts": 1787419698703,
-          "instrument": "SOL_USDC-25SEP26-116-C",
-          "expiry": "25SEP26",
-          "strike": 116.0,
-          "type": "C",
-          "direction": "sell",
-          "price": 2.0,
-          "iv": 71.24,
-          "amount": 250.0,
-          "premium_usd": 500.0,
-          "notional_usd": 23535.65,
-          "trade_id": "USDC-54129036",
-          "is_whale": false
-        },
-        {
-          "ts": 1787419698703,
-          "instrument": "SOL_USDC-4SEP26-94-P",
-          "expiry": "4SEP26",
-          "strike": 94.0,
-          "type": "P",
-          "direction": "buy",
-          "price": 5.2,
-          "iv": 75.68,
-          "amount": 250.0,
-          "premium_usd": 1300.0,
-          "notional_usd": 23537.0,
-          "trade_id": "USDC-54129035",
-          "is_whale": false
-        },
-        {
-          "ts": 1787419698703,
-          "instrument": "SOL_USDC-25SEP26-122-C",
-          "expiry": "25SEP26",
-          "strike": 122.0,
-          "type": "C",
-          "direction": "sell",
-          "price": 1.5,
-          "iv": 74.36,
-          "amount": 250.0,
-          "premium_usd": 375.0,
-          "notional_usd": 23535.65,
-          "trade_id": "USDC-54129034",
-          "is_whale": false
-        },
-        {
-          "ts": 1787419698703,
-          "instrument": "SOL_USDC-4SEP26-96-C",
-          "expiry": "4SEP26",
-          "strike": 96.0,
-          "type": "C",
-          "direction": "buy",
-          "price": 4.7,
-          "iv": 79.2,
-          "amount": 10.0,
-          "premium_usd": 47.0,
-          "notional_usd": 941.48,
-          "trade_id": "USDC-54129033",
-          "is_whale": false
-        },
-        {
-          "ts": 1787419698703,
-          "instrument": "SOL_USDC-4SEP26-91-P",
-          "expiry": "4SEP26",
-          "strike": 91.0,
-          "type": "P",
-          "direction": "buy",
-          "price": 3.7,
-          "iv": 74.68,
-          "amount": 250.0,
-          "premium_usd": 925.0,
-          "notional_usd": 23537.0,
-          "trade_id": "USDC-54129032",
-          "is_whale": false
-        },
-        {
-          "ts": 1787417416193,
-          "instrument": "SOL_USDC-28AUG26-79-C",
-          "expiry": "28AUG26",
-          "strike": 79.0,
-          "type": "C",
-          "direction": "sell",
-          "price": 16.0,
-          "iv": 113.0,
-          "amount": 10.0,
-          "premium_usd": 160.0,
-          "notional_usd": 944.13,
-          "trade_id": "USDC-54121466",
-          "is_whale": false
-        },
-        {
-          "ts": 1787417351741,
-          "instrument": "SOL_USDC-28AUG26-94-C",
-          "expiry": "28AUG26",
-          "strike": 94.0,
-          "type": "C",
-          "direction": "sell",
-          "price": 4.7,
-          "iv": 95.82,
-          "amount": 10.0,
-          "premium_usd": 47.0,
-          "notional_usd": 944.49,
-          "trade_id": "USDC-54121050",
-          "is_whale": false
-        },
-        {
-          "ts": 1787417351516,
-          "instrument": "SOL_USDC-28AUG26-81-C",
-          "expiry": "28AUG26",
-          "strike": 81.0,
-          "type": "C",
-          "direction": "sell",
-          "price": 14.2,
-          "iv": 108.7,
-          "amount": 10.0,
-          "premium_usd": 142.0,
-          "notional_usd": 944.49,
-          "trade_id": "USDC-54121043",
-          "is_whale": false
-        },
-        {
-          "ts": 1787417351516,
-          "instrument": "SOL_USDC-28AUG26-78-C",
-          "expiry": "28AUG26",
-          "strike": 78.0,
-          "type": "C",
-          "direction": "sell",
-          "price": 17.0,
-          "iv": 117.21,
-          "amount": 10.0,
-          "premium_usd": 170.0,
-          "notional_usd": 944.49,
-          "trade_id": "USDC-54121042",
-          "is_whale": false
-        },
-        {
-          "ts": 1787417247964,
-          "instrument": "SOL_USDC-23AUG26-99-C",
-          "expiry": "23AUG26",
-          "strike": 99.0,
-          "type": "C",
-          "direction": "sell",
-          "price": 0.6,
-          "iv": 132.02,
-          "amount": 10.0,
-          "premium_usd": 6.0,
-          "notional_usd": 945.48,
-          "trade_id": "USDC-54120446",
-          "is_whale": false
-        },
-        {
-          "ts": 1787417219180,
-          "instrument": "SOL_USDC-25SEP26-84-C",
-          "expiry": "25SEP26",
-          "strike": 84.0,
-          "type": "C",
-          "direction": "sell",
-          "price": 13.9,
-          "iv": 69.15,
-          "amount": 10.0,
-          "premium_usd": 139.0,
-          "notional_usd": 945.68,
-          "trade_id": "USDC-54120341",
-          "is_whale": false
-        },
-        {
-          "ts": 1787417209476,
-          "instrument": "SOL_USDC-25SEP26-86-C",
-          "expiry": "25SEP26",
-          "strike": 86.0,
-          "type": "C",
-          "direction": "sell",
-          "price": 12.5,
-          "iv": 68.23,
-          "amount": 10.0,
-          "premium_usd": 125.0,
-          "notional_usd": 945.73,
-          "trade_id": "USDC-54120288",
-          "is_whale": false
-        },
-        {
-          "ts": 1787417197335,
-          "instrument": "SOL_USDC-25SEP26-88-C",
-          "expiry": "25SEP26",
-          "strike": 88.0,
-          "type": "C",
-          "direction": "sell",
-          "price": 11.2,
-          "iv": 67.42,
-          "amount": 10.0,
-          "premium_usd": 112.0,
-          "notional_usd": 946.02,
-          "trade_id": "USDC-54120231",
-          "is_whale": false
-        },
-        {
-          "ts": 1787417187419,
-          "instrument": "SOL_USDC-28AUG26-85-C",
-          "expiry": "28AUG26",
-          "strike": 85.0,
-          "type": "C",
-          "direction": "sell",
-          "price": 10.8,
-          "iv": 100.38,
-          "amount": 10.0,
-          "premium_usd": 108.0,
-          "notional_usd": 945.87,
-          "trade_id": "USDC-54120205",
-          "is_whale": false
-        },
-        {
-          "ts": 1787417026614,
-          "instrument": "SOL_USDC-25DEC26-116-C",
-          "expiry": "25DEC26",
-          "strike": 116.0,
-          "type": "C",
-          "direction": "sell",
-          "price": 6.5,
-          "iv": 59.94,
-          "amount": 250.0,
-          "premium_usd": 1625.0,
-          "notional_usd": 23614.7,
-          "trade_id": "USDC-54119582",
-          "is_whale": false
-        },
-        {
-          "ts": 1787417023906,
-          "instrument": "SOL_USDC-25DEC26-100-C",
-          "expiry": "25DEC26",
-          "strike": 100.0,
-          "type": "C",
-          "direction": "sell",
-          "price": 11.0,
-          "iv": 59.01,
-          "amount": 250.0,
-          "premium_usd": 2750.0,
-          "notional_usd": 23607.45,
-          "trade_id": "USDC-54119580",
-          "is_whale": false
-        },
-        {
-          "ts": 1787416865639,
-          "instrument": "SOL_USDC-23AUG26-97-C",
-          "expiry": "23AUG26",
-          "strike": 97.0,
-          "type": "C",
-          "direction": "sell",
-          "price": 0.6,
-          "iv": 98.27,
-          "amount": 250.0,
-          "premium_usd": 150.0,
-          "notional_usd": 23600.85,
-          "trade_id": "USDC-54118798",
-          "is_whale": false
-        },
-        {
-          "ts": 1787416865110,
-          "instrument": "SOL_USDC-23AUG26-98-C",
-          "expiry": "23AUG26",
-          "strike": 98.0,
-          "type": "C",
-          "direction": "sell",
-          "price": 0.4,
-          "iv": 99.24,
-          "amount": 10.0,
-          "premium_usd": 4.0,
-          "notional_usd": 944.03,
-          "trade_id": "USDC-54118779",
-          "is_whale": false
-        },
-        {
-          "ts": 1787416865110,
-          "instrument": "SOL_USDC-23AUG26-98-C",
-          "expiry": "23AUG26",
-          "strike": 98.0,
-          "type": "C",
-          "direction": "sell",
-          "price": 0.4,
-          "iv": 99.24,
-          "amount": 10.0,
-          "premium_usd": 4.0,
-          "notional_usd": 944.03,
-          "trade_id": "USDC-54118778",
-          "is_whale": false
-        },
-        {
-          "ts": 1787416865079,
-          "instrument": "SOL_USDC-23AUG26-98-C",
-          "expiry": "23AUG26",
-          "strike": 98.0,
-          "type": "C",
-          "direction": "sell",
-          "price": 0.4,
-          "iv": 99.24,
-          "amount": 20.0,
-          "premium_usd": 8.0,
-          "notional_usd": 1888.07,
-          "trade_id": "USDC-54118777",
-          "is_whale": false
         }
       ],
       "trade_stats": {
         "count": 100,
-        "avg_notional": 8244.18,
-        "whale_threshold": 41220.88,
-        "buy_notional": 221947.96,
-        "sell_notional": 602469.72,
-        "buy_pct": 26.9,
-        "latest_iv": 75.87,
-        "avg_iv": 79.26
+        "avg_notional": 5432.74,
+        "whale_threshold": 27163.69,
+        "buy_notional": 208437.66,
+        "sell_notional": 334836.13,
+        "buy_pct": 38.4,
+        "latest_iv": 82.48,
+        "avg_iv": 81.32
       },
       "charts": {
         "SOL_USDC-25DEC26-100-C": {
           "ticks": [
-            1786827600000,
             1786831200000,
             1786834800000,
             1786838400000,
@@ -2509,10 +2508,10 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
-            2.6,
             2.6,
             2.6,
             2.6,
@@ -2680,10 +2679,10 @@
             11.0,
             10.5,
             11.0,
+            11.0,
             11.0
           ],
           "high": [
-            2.6,
             2.6,
             2.6,
             2.6,
@@ -2846,6 +2845,7 @@
             9.4,
             10.3,
             10.3,
+            11.0,
             11.0,
             11.0,
             11.0,
@@ -2969,7 +2969,6 @@
             2.6,
             2.6,
             2.6,
-            2.6,
             8.2,
             8.3,
             8.3,
@@ -3021,6 +3020,7 @@
             11.0,
             11.0,
             10.5,
+            11.0,
             11.0,
             11.0
           ],
@@ -3140,7 +3140,6 @@
             2.6,
             2.6,
             2.6,
-            2.6,
             8.2,
             8.3,
             8.3,
@@ -3193,10 +3192,10 @@
             11.0,
             11.0,
             11.0,
+            11.0,
             11.0
           ],
           "volume": [
-            0,
             0,
             0,
             0,
@@ -3364,12 +3363,12 @@
             0,
             20.0,
             0,
+            0,
             0
           ]
         },
         "SOL_USDC-28AUG26-100-C": {
           "ticks": [
-            1786827600000,
             1786831200000,
             1786834800000,
             1786838400000,
@@ -3537,10 +3536,10 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
-            0.1,
             0.1,
             0.1,
             0.1,
@@ -3708,10 +3707,10 @@
             2.6,
             2.6,
             2.6,
-            2.6
+            2.6,
+            1.7
           ],
           "high": [
-            0.1,
             0.1,
             0.1,
             0.1,
@@ -3879,10 +3878,10 @@
             2.6,
             2.6,
             2.6,
-            2.6
+            2.6,
+            1.7
           ],
           "low": [
-            0.1,
             0.1,
             0.1,
             0.1,
@@ -4050,10 +4049,10 @@
             2.6,
             2.6,
             2.6,
-            2.6
+            2.6,
+            1.7
           ],
           "close": [
-            0.1,
             0.1,
             0.1,
             0.1,
@@ -4221,10 +4220,10 @@
             2.6,
             2.6,
             2.6,
-            2.6
+            2.6,
+            1.7
           ],
           "volume": [
-            0,
             0,
             0,
             0,
@@ -4392,7 +4391,8 @@
             0,
             0,
             0,
-            0
+            0,
+            10.0
           ]
         },
         "SOL_USDC-25DEC26-104-C": {
@@ -4441,7 +4441,8 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
             7.5,
@@ -4484,6 +4485,7 @@
             8.0,
             8.0,
             8.0,
+            9.7,
             9.7,
             9.7,
             9.7,
@@ -4535,6 +4537,7 @@
             9.7,
             9.7,
             9.7,
+            9.7,
             9.7
           ],
           "low": [
@@ -4578,6 +4581,7 @@
             8.0,
             8.0,
             8.0,
+            9.7,
             9.7,
             9.7,
             9.7,
@@ -4629,6 +4633,7 @@
             9.7,
             9.7,
             9.7,
+            9.7,
             9.7
           ],
           "volume": [
@@ -4676,12 +4681,12 @@
             0,
             0,
             0,
+            0,
             0
           ]
         },
         "SOL_USDC-25DEC26-105-C": {
           "ticks": [
-            1786827600000,
             1786831200000,
             1786834800000,
             1786838400000,
@@ -4849,10 +4854,10 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
-            2.2,
             2.2,
             2.2,
             2.2,
@@ -5016,6 +5021,7 @@
             9.4,
             9.4,
             9.4,
+            9.5,
             9.5,
             9.5,
             9.5,
@@ -5131,7 +5137,6 @@
             2.2,
             2.2,
             2.2,
-            2.2,
             4.7,
             4.7,
             4.7,
@@ -5191,10 +5196,10 @@
             9.5,
             9.5,
             9.5,
+            9.5,
             9.5
           ],
           "low": [
-            2.2,
             2.2,
             2.2,
             2.2,
@@ -5362,10 +5367,10 @@
             9.5,
             9.5,
             9.5,
+            9.5,
             9.5
           ],
           "close": [
-            2.2,
             2.2,
             2.2,
             2.2,
@@ -5533,10 +5538,10 @@
             9.5,
             9.5,
             9.5,
+            9.5,
             9.5
           ],
           "volume": [
-            0,
             0,
             0,
             0,
@@ -5704,6 +5709,7 @@
             0,
             0,
             0,
+            0,
             0
           ]
         },
@@ -5753,7 +5759,8 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
             8.0,
@@ -5793,6 +5800,7 @@
             10.3,
             10.3,
             10.3,
+            9.8,
             9.8,
             9.8,
             9.8,
@@ -5847,6 +5855,7 @@
             9.8,
             9.8,
             9.8,
+            9.8,
             9.8
           ],
           "low": [
@@ -5887,6 +5896,7 @@
             10.3,
             10.3,
             10.3,
+            9.8,
             9.8,
             9.8,
             9.8,
@@ -5941,6 +5951,7 @@
             9.8,
             9.8,
             9.8,
+            9.8,
             9.8
           ],
           "volume": [
@@ -5988,12 +5999,12 @@
             0,
             0,
             0,
+            0,
             0
           ]
         },
         "SOL_USDC-28AUG26-96-C": {
           "ticks": [
-            1786827600000,
             1786831200000,
             1786834800000,
             1786838400000,
@@ -6161,10 +6172,10 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
-            0.1,
             0.1,
             0.1,
             0.1,
@@ -6332,10 +6343,10 @@
             2.5,
             2.6,
             2.6,
+            2.6,
             2.6
           ],
           "high": [
-            0.1,
             0.1,
             0.1,
             0.1,
@@ -6503,10 +6514,10 @@
             2.6,
             2.6,
             2.6,
+            2.6,
             2.6
           ],
           "low": [
-            0.1,
             0.1,
             0.1,
             0.1,
@@ -6674,10 +6685,10 @@
             2.5,
             2.6,
             2.6,
+            2.6,
             2.6
           ],
           "close": [
-            0.1,
             0.1,
             0.1,
             0.1,
@@ -6845,10 +6856,10 @@
             2.6,
             2.6,
             2.6,
+            2.6,
             2.6
           ],
           "volume": [
-            0,
             0,
             0,
             0,
@@ -7016,12 +7027,12 @@
             20.0,
             0,
             0,
-            0
+            0,
+            10.0
           ]
         },
         "SOL_USDC-28AUG26-102-C": {
           "ticks": [
-            1786827600000,
             1786831200000,
             1786834800000,
             1786838400000,
@@ -7189,10 +7200,10 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
-            0.1,
             0.1,
             0.1,
             0.1,
@@ -7360,10 +7371,10 @@
             2.2,
             2.2,
             2.2,
+            2.2,
             2.2
           ],
           "high": [
-            0.1,
             0.1,
             0.1,
             0.1,
@@ -7531,10 +7542,10 @@
             2.2,
             2.2,
             2.2,
+            2.2,
             2.2
           ],
           "low": [
-            0.1,
             0.1,
             0.1,
             0.1,
@@ -7695,6 +7706,7 @@
             1.1,
             1.9,
             2.1,
+            2.2,
             2.2,
             2.2,
             2.2,
@@ -7801,7 +7813,6 @@
             0.1,
             0.1,
             0.1,
-            0.1,
             0.2,
             0.2,
             0.3,
@@ -7873,10 +7884,10 @@
             2.2,
             2.2,
             2.2,
+            2.2,
             2.2
           ],
           "volume": [
-            0,
             0,
             0,
             0,
@@ -8044,12 +8055,12 @@
             0,
             0,
             0,
+            0,
             0
           ]
         },
         "SOL_USDC-28AUG26-88-C": {
           "ticks": [
-            1786827600000,
             1786831200000,
             1786834800000,
             1786838400000,
@@ -8217,10 +8228,10 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
-            0.3,
             0.3,
             0.3,
             0.3,
@@ -8388,10 +8399,10 @@
             7.9,
             7.9,
             7.9,
-            7.9
+            7.9,
+            6.6
           ],
           "high": [
-            0.3,
             0.3,
             0.3,
             0.3,
@@ -8559,10 +8570,10 @@
             7.9,
             7.9,
             7.9,
-            7.9
+            7.9,
+            6.6
           ],
           "low": [
-            0.3,
             0.3,
             0.3,
             0.3,
@@ -8730,10 +8741,10 @@
             7.9,
             7.9,
             7.9,
-            7.9
+            7.9,
+            6.6
           ],
           "close": [
-            0.3,
             0.3,
             0.3,
             0.3,
@@ -8901,10 +8912,10 @@
             7.9,
             7.9,
             7.9,
-            7.9
+            7.9,
+            6.6
           ],
           "volume": [
-            0,
             0,
             0,
             0,
@@ -9072,12 +9083,12 @@
             0,
             0,
             0,
-            0
+            0,
+            10.0
           ]
         },
         "SOL_USDC-25DEC26-120-C": {
           "ticks": [
-            1786827600000,
             1786831200000,
             1786834800000,
             1786838400000,
@@ -9245,10 +9256,10 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
-            0.9,
             0.9,
             0.9,
             0.9,
@@ -9412,6 +9423,7 @@
             5.3,
             5.3,
             5.3,
+            5.9,
             5.9,
             5.9,
             5.9,
@@ -9507,7 +9519,6 @@
             0.9,
             0.9,
             0.9,
-            0.9,
             1.0,
             1.2,
             1.2,
@@ -9587,10 +9598,10 @@
             5.9,
             5.9,
             5.9,
+            5.9,
             5.9
           ],
           "low": [
-            0.9,
             0.9,
             0.9,
             0.9,
@@ -9758,10 +9769,10 @@
             5.9,
             5.9,
             5.9,
+            5.9,
             5.9
           ],
           "close": [
-            0.9,
             0.9,
             0.9,
             0.9,
@@ -9929,10 +9940,10 @@
             5.9,
             5.9,
             5.9,
+            5.9,
             5.9
           ],
           "volume": [
-            0,
             0,
             0,
             0,
@@ -10100,12 +10111,12 @@
             0,
             0,
             0,
+            0,
             0
           ]
         },
         "SOL_USDC-28AUG26-94-C": {
           "ticks": [
-            1786827600000,
             1786831200000,
             1786834800000,
             1786838400000,
@@ -10273,7 +10284,8 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
             0.1,
@@ -10369,7 +10381,6 @@
             0.1,
             0.1,
             0.1,
-            0.1,
             0.2,
             0.2,
             0.4,
@@ -10444,7 +10455,8 @@
             3.4,
             3.4,
             3.4,
-            3.4
+            3.4,
+            3.3
           ],
           "high": [
             0.1,
@@ -10540,7 +10552,6 @@
             0.1,
             0.1,
             0.1,
-            0.1,
             0.2,
             0.2,
             0.4,
@@ -10615,7 +10626,8 @@
             3.4,
             3.4,
             3.4,
-            3.4
+            3.4,
+            3.3
           ],
           "low": [
             0.1,
@@ -10711,7 +10723,6 @@
             0.1,
             0.1,
             0.1,
-            0.1,
             0.2,
             0.2,
             0.4,
@@ -10786,10 +10797,10 @@
             3.4,
             3.4,
             3.4,
-            3.4
+            3.4,
+            3.3
           ],
           "close": [
-            0.1,
             0.1,
             0.1,
             0.1,
@@ -10957,10 +10968,10 @@
             3.4,
             3.4,
             3.4,
-            3.4
+            3.4,
+            3.3
           ],
           "volume": [
-            0,
             0,
             0,
             0,
@@ -11128,12 +11139,12 @@
             10.0,
             0,
             0,
-            0
+            0,
+            10.0
           ]
         },
         "SOL_USDC-25DEC26-110-C": {
           "ticks": [
-            1786827600000,
             1786831200000,
             1786834800000,
             1786838400000,
@@ -11301,10 +11312,10 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
-            1.4,
             1.4,
             1.4,
             1.4,
@@ -11472,10 +11483,10 @@
             7.5,
             7.5,
             7.5,
+            7.5,
             7.5
           ],
           "high": [
-            1.4,
             1.4,
             1.4,
             1.4,
@@ -11643,10 +11654,10 @@
             7.5,
             7.5,
             7.5,
+            7.5,
             7.5
           ],
           "low": [
-            1.4,
             1.4,
             1.4,
             1.4,
@@ -11814,10 +11825,10 @@
             7.5,
             7.5,
             7.5,
+            7.5,
             7.5
           ],
           "close": [
-            1.4,
             1.4,
             1.4,
             1.4,
@@ -11985,10 +11996,10 @@
             7.5,
             7.5,
             7.5,
+            7.5,
             7.5
           ],
           "volume": [
-            0,
             0,
             0,
             0,
@@ -12156,12 +12167,12 @@
             0,
             0,
             0,
+            0,
             0
           ]
         },
         "SOL_USDC-25DEC26-96-C": {
           "ticks": [
-            1786827600000,
             1786831200000,
             1786834800000,
             1786838400000,
@@ -12329,10 +12340,10 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
-            2.9,
             2.9,
             2.9,
             2.9,
@@ -12496,6 +12507,7 @@
             11.9,
             11.9,
             11.9,
+            12.7,
             12.7,
             12.7,
             12.7,
@@ -12626,7 +12638,6 @@
             2.9,
             2.9,
             2.9,
-            2.9,
             10.0,
             10.0,
             9.8,
@@ -12667,6 +12678,7 @@
             11.9,
             11.9,
             11.9,
+            12.7,
             12.7,
             12.7,
             12.7,
@@ -12674,7 +12686,6 @@
             12.7
           ],
           "low": [
-            2.9,
             2.9,
             2.9,
             2.9,
@@ -12842,6 +12853,7 @@
             12.7,
             12.7,
             12.7,
+            12.7,
             12.7
           ],
           "close": [
@@ -12968,7 +12980,6 @@
             2.9,
             2.9,
             2.9,
-            2.9,
             10.0,
             10.0,
             9.8,
@@ -13009,6 +13020,7 @@
             11.9,
             11.9,
             11.9,
+            12.7,
             12.7,
             12.7,
             12.7,
@@ -13016,7 +13028,6 @@
             12.7
           ],
           "volume": [
-            250.0,
             0,
             0,
             0,
@@ -13184,12 +13195,12 @@
             0,
             0,
             0,
+            0,
             0
           ]
         },
         "SOL_USDC-28AUG26-98-C": {
           "ticks": [
-            1786827600000,
             1786831200000,
             1786834800000,
             1786838400000,
@@ -13357,10 +13368,10 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
-            0.1,
             0.1,
             0.1,
             0.1,
@@ -13528,10 +13539,10 @@
             1.7,
             1.7,
             2.7,
+            2.8,
             2.8
           ],
           "high": [
-            0.1,
             0.1,
             0.1,
             0.1,
@@ -13699,10 +13710,10 @@
             1.7,
             1.7,
             2.8,
+            2.8,
             2.8
           ],
           "low": [
-            0.1,
             0.1,
             0.1,
             0.1,
@@ -13870,10 +13881,10 @@
             1.7,
             1.7,
             2.7,
+            2.8,
             2.8
           ],
           "close": [
-            0.1,
             0.1,
             0.1,
             0.1,
@@ -14041,10 +14052,10 @@
             1.7,
             1.7,
             2.8,
+            2.8,
             2.8
           ],
           "volume": [
-            0,
             0,
             0,
             0,
@@ -14212,6 +14223,7 @@
             0,
             0,
             20.0,
+            0,
             0
           ]
         },
@@ -14254,7 +14266,8 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
             5.5,
@@ -14291,6 +14304,7 @@
             5.1,
             5.1,
             5.1,
+            3.7,
             3.7,
             3.7,
             3.7,
@@ -14334,6 +14348,7 @@
             3.7,
             3.7,
             3.7,
+            3.7,
             3.7
           ],
           "low": [
@@ -14374,6 +14389,7 @@
             3.7,
             3.7,
             3.7,
+            3.7,
             3.7
           ],
           "close": [
@@ -14411,6 +14427,7 @@
             5.1,
             5.1,
             5.1,
+            3.7,
             3.7,
             3.7,
             3.7,
@@ -14454,6 +14471,7 @@
             10.0,
             0,
             0,
+            0,
             0
           ]
         },
@@ -14471,7 +14489,8 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
             4.6,
@@ -14482,6 +14501,7 @@
             5.1,
             5.1,
             5.1,
+            5.2,
             5.2,
             5.2,
             5.2,
@@ -14501,6 +14521,7 @@
             5.2,
             5.2,
             5.2,
+            5.2,
             5.2
           ],
           "low": [
@@ -14512,6 +14533,7 @@
             5.1,
             5.1,
             5.1,
+            5.2,
             5.2,
             5.2,
             5.2,
@@ -14531,6 +14553,7 @@
             5.2,
             5.2,
             5.2,
+            5.2,
             5.2
           ],
           "volume": [
@@ -14546,12 +14569,12 @@
             0,
             0,
             0,
+            0,
             0
           ]
         },
         "SOL_USDC-25SEP26-104-C": {
           "ticks": [
-            1786827600000,
             1786831200000,
             1786834800000,
             1786838400000,
@@ -14719,10 +14742,10 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
-            0.8,
             0.8,
             0.8,
             0.8,
@@ -14890,6 +14913,7 @@
             4.4,
             4.4,
             4.4,
+            4.4,
             4.4
           ],
           "high": [
@@ -15010,7 +15034,6 @@
             0.8,
             0.8,
             0.8,
-            0.8,
             2.1,
             2.1,
             2.1,
@@ -15043,6 +15066,7 @@
             3.5,
             3.5,
             3.5,
+            4.4,
             4.4,
             4.4,
             4.4,
@@ -15181,7 +15205,6 @@
             0.8,
             0.8,
             0.8,
-            0.8,
             2.1,
             2.1,
             2.1,
@@ -15215,6 +15238,7 @@
             3.5,
             3.5,
             4.3,
+            4.4,
             4.4,
             4.4,
             4.4,
@@ -15352,7 +15376,6 @@
             0.8,
             0.8,
             0.8,
-            0.8,
             2.1,
             2.1,
             2.1,
@@ -15385,6 +15408,7 @@
             3.5,
             3.5,
             3.5,
+            4.4,
             4.4,
             4.4,
             4.4,
@@ -15406,7 +15430,6 @@
             4.4
           ],
           "volume": [
-            0,
             0,
             0,
             0,
@@ -15574,6 +15597,7 @@
             0,
             0,
             0,
+            0,
             0
           ]
         },
@@ -15640,7 +15664,8 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
             0.9,
@@ -15701,6 +15726,7 @@
             4.0,
             3.6,
             3.6,
+            2.9,
             2.9,
             2.9,
             2.9,
@@ -15768,6 +15794,7 @@
             2.9,
             2.9,
             2.9,
+            2.9,
             2.9
           ],
           "low": [
@@ -15832,6 +15859,7 @@
             2.9,
             2.9,
             2.9,
+            2.9,
             2.9
           ],
           "close": [
@@ -15893,6 +15921,7 @@
             3.6,
             3.6,
             3.6,
+            2.9,
             2.9,
             2.9,
             2.9,
@@ -15960,6 +15989,7 @@
             10.0,
             0,
             0,
+            0,
             0
           ]
         },
@@ -15999,7 +16029,8 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
             2.4,
@@ -16029,6 +16060,7 @@
             3.4,
             3.4,
             3.4,
+            4.3,
             4.3,
             4.3,
             4.3,
@@ -16073,6 +16105,7 @@
             4.3,
             4.3,
             4.3,
+            4.3,
             4.3
           ],
           "low": [
@@ -16103,6 +16136,7 @@
             3.4,
             3.4,
             3.4,
+            4.3,
             4.3,
             4.3,
             4.3,
@@ -16147,6 +16181,7 @@
             4.3,
             4.3,
             4.3,
+            4.3,
             4.3
           ],
           "volume": [
@@ -16184,12 +16219,12 @@
             0,
             0,
             0,
+            0,
             0
           ]
         },
         "SOL_USDC-25SEP26-102-C": {
           "ticks": [
-            1786827600000,
             1786831200000,
             1786834800000,
             1786838400000,
@@ -16357,10 +16392,10 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
-            0.4,
             0.4,
             0.4,
             0.4,
@@ -16510,6 +16545,7 @@
             2.1,
             2.1,
             2.1,
+            4.9,
             4.9,
             4.9,
             4.9,
@@ -16574,7 +16610,6 @@
             0.4,
             0.4,
             0.4,
-            0.4,
             0.2,
             0.2,
             0.2,
@@ -16681,6 +16716,7 @@
             2.1,
             2.1,
             2.1,
+            4.9,
             4.9,
             4.9,
             4.9,
@@ -16702,7 +16738,6 @@
             4.9
           ],
           "low": [
-            0.4,
             0.4,
             0.4,
             0.4,
@@ -16870,6 +16905,7 @@
             4.9,
             4.9,
             4.9,
+            4.9,
             4.9
           ],
           "close": [
@@ -16916,7 +16952,6 @@
             0.4,
             0.4,
             0.4,
-            0.4,
             0.2,
             0.2,
             0.2,
@@ -17023,6 +17058,7 @@
             2.1,
             2.1,
             2.1,
+            4.9,
             4.9,
             4.9,
             4.9,
@@ -17044,7 +17080,6 @@
             4.9
           ],
           "volume": [
-            0,
             0,
             0,
             0,
@@ -17212,6 +17247,7 @@
             0,
             0,
             0,
+            0,
             0
           ]
         },
@@ -17251,7 +17287,8 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
             2.1,
@@ -17281,6 +17318,7 @@
             3.3,
             3.3,
             3.3,
+            4.0,
             4.0,
             4.0,
             4.0,
@@ -17325,6 +17363,7 @@
             4.0,
             4.0,
             4.0,
+            4.0,
             4.0
           ],
           "low": [
@@ -17362,6 +17401,7 @@
             4.0,
             4.0,
             4.0,
+            4.0,
             4.0
           ],
           "close": [
@@ -17392,6 +17432,7 @@
             3.3,
             3.3,
             3.3,
+            4.0,
             4.0,
             4.0,
             4.0,
@@ -17436,6 +17477,7 @@
             0,
             0,
             0,
+            0,
             0
           ]
         },
@@ -17470,7 +17512,8 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
             5.4,
@@ -17493,6 +17536,7 @@
             4.0,
             4.0,
             4.9,
+            4.5,
             4.5,
             4.5,
             4.5,
@@ -17534,6 +17578,7 @@
             4.5,
             4.5,
             4.5,
+            4.5,
             4.5
           ],
           "low": [
@@ -17556,6 +17601,7 @@
             5.5,
             4.0,
             4.0,
+            4.5,
             4.5,
             4.5,
             4.5,
@@ -17598,6 +17644,7 @@
             4.5,
             4.5,
             4.5,
+            4.5,
             4.5
           ],
           "volume": [
@@ -17630,12 +17677,12 @@
             0,
             0,
             0,
+            0,
             0
           ]
         },
         "SOL_USDC-25SEP26-90-P": {
           "ticks": [
-            1786827600000,
             1786831200000,
             1786834800000,
             1786838400000,
@@ -17803,10 +17850,10 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
-            15.5,
             15.5,
             15.5,
             15.5,
@@ -17974,10 +18021,10 @@
             5.5,
             5.5,
             5.5,
+            5.5,
             5.5
           ],
           "high": [
-            15.5,
             15.5,
             15.5,
             15.5,
@@ -18145,10 +18192,10 @@
             5.5,
             5.5,
             5.5,
+            5.5,
             5.5
           ],
           "low": [
-            15.5,
             15.5,
             15.5,
             15.5,
@@ -18316,10 +18363,10 @@
             5.5,
             5.5,
             5.5,
+            5.5,
             5.5
           ],
           "close": [
-            15.5,
             15.5,
             15.5,
             15.5,
@@ -18487,10 +18534,10 @@
             5.5,
             5.5,
             5.5,
+            5.5,
             5.5
           ],
           "volume": [
-            0,
             0,
             0,
             0,
@@ -18658,6 +18705,7 @@
             0,
             0,
             0,
+            0,
             0
           ]
         },
@@ -18686,7 +18734,8 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
             3.4,
@@ -18712,7 +18761,8 @@
             3.2,
             3.2,
             3.2,
-            3.2
+            3.2,
+            4.3
           ],
           "high": [
             3.4,
@@ -18738,7 +18788,8 @@
             3.2,
             3.2,
             3.2,
-            3.2
+            3.2,
+            4.3
           ],
           "low": [
             3.1,
@@ -18764,7 +18815,8 @@
             3.2,
             3.2,
             3.2,
-            3.2
+            3.2,
+            4.3
           ],
           "close": [
             3.4,
@@ -18790,7 +18842,8 @@
             3.2,
             3.2,
             3.2,
-            3.2
+            3.2,
+            4.3
           ],
           "volume": [
             30.0,
@@ -18816,7 +18869,8 @@
             10.0,
             0,
             0,
-            0
+            0,
+            10.0
           ]
         },
         "SOL_USDC-23AUG26-95-P": {
@@ -18843,7 +18897,8 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
             2.1,
@@ -18863,6 +18918,7 @@
             1.7,
             2.2,
             2.0,
+            1.9,
             1.9,
             1.9,
             1.9,
@@ -18893,6 +18949,7 @@
             1.9,
             1.9,
             1.9,
+            1.9,
             1.9
           ],
           "low": [
@@ -18913,6 +18970,7 @@
             1.7,
             2.0,
             2.0,
+            1.9,
             1.9,
             1.9,
             1.9,
@@ -18943,6 +19001,7 @@
             1.9,
             1.9,
             1.9,
+            1.9,
             1.9
           ],
           "volume": [
@@ -18964,6 +19023,7 @@
             310.0,
             0,
             250.0,
+            0,
             0,
             0,
             0,
@@ -19003,7 +19063,8 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
             6.6,
@@ -19027,6 +19088,7 @@
             5.2,
             5.2,
             5.7,
+            5.6,
             5.6,
             5.6,
             5.6,
@@ -19069,6 +19131,7 @@
             5.6,
             5.6,
             5.6,
+            5.6,
             5.6
           ],
           "low": [
@@ -19092,6 +19155,7 @@
             6.8,
             5.2,
             5.2,
+            5.6,
             5.6,
             5.6,
             5.6,
@@ -19135,6 +19199,7 @@
             5.6,
             5.6,
             5.6,
+            5.6,
             5.6
           ],
           "volume": [
@@ -19159,6 +19224,7 @@
             500.0,
             0,
             300.0,
+            0,
             0,
             0,
             0,
@@ -19218,7 +19284,8 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
             1.1,
@@ -19259,6 +19326,7 @@
             2.7,
             2.8,
             3.2,
+            3.4,
             3.4,
             3.4,
             3.4,
@@ -19307,6 +19375,7 @@
             2.7,
             3.2,
             3.2,
+            3.4,
             3.4,
             3.4,
             3.4,
@@ -19362,6 +19431,7 @@
             3.4,
             3.4,
             3.4,
+            3.4,
             3.4
           ],
           "close": [
@@ -19403,6 +19473,7 @@
             2.7,
             3.2,
             3.2,
+            3.4,
             3.4,
             3.4,
             3.4,
@@ -19458,6 +19529,7 @@
             0,
             0,
             0,
+            0,
             0
           ]
         },
@@ -19476,7 +19548,8 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
             2.9,
@@ -19489,6 +19562,7 @@
             4.2,
             4.0,
             4.0,
+            2.6,
             2.6,
             2.6,
             2.6,
@@ -19508,6 +19582,7 @@
             2.6,
             2.6,
             2.6,
+            2.6,
             2.6
           ],
           "low": [
@@ -19521,6 +19596,7 @@
             4.0,
             4.0,
             4.0,
+            2.6,
             2.6,
             2.6,
             2.6,
@@ -19540,6 +19616,7 @@
             2.6,
             2.6,
             2.6,
+            2.6,
             2.6
           ],
           "volume": [
@@ -19554,6 +19631,7 @@
             0,
             0,
             20.0,
+            0,
             0,
             0,
             0
@@ -19591,7 +19669,8 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
             3.2,
@@ -19619,6 +19698,7 @@
             3.7,
             3.7,
             3.7,
+            5.1,
             5.1,
             5.1,
             5.1,
@@ -19657,6 +19737,7 @@
             5.1,
             5.1,
             5.1,
+            5.1,
             5.1
           ],
           "low": [
@@ -19685,6 +19766,7 @@
             3.7,
             3.7,
             3.7,
+            5.1,
             5.1,
             5.1,
             5.1,
@@ -19723,6 +19805,7 @@
             5.1,
             5.1,
             5.1,
+            5.1,
             5.1
           ],
           "volume": [
@@ -19756,12 +19839,12 @@
             0,
             0,
             0,
+            0,
             0
           ]
         },
         "SOL_USDC-25DEC26-92-C": {
           "ticks": [
-            1786827600000,
             1786831200000,
             1786834800000,
             1786838400000,
@@ -19929,7 +20012,8 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
             3.3,
@@ -19950,7 +20034,6 @@
             3.3,
             3.3,
             3.3,
-            3.3,
             3.6,
             3.6,
             3.6,
@@ -20096,6 +20179,7 @@
             12.0,
             12.0,
             12.0,
+            14.4,
             14.4,
             14.4,
             14.4,
@@ -20121,7 +20205,6 @@
             3.3,
             3.3,
             3.3,
-            3.3,
             3.6,
             3.6,
             3.6,
@@ -20267,6 +20350,7 @@
             12.0,
             12.0,
             12.0,
+            14.4,
             14.4,
             14.4,
             14.4,
@@ -20274,7 +20358,6 @@
             14.4
           ],
           "low": [
-            3.3,
             3.3,
             3.3,
             3.3,
@@ -20442,6 +20525,7 @@
             14.4,
             14.4,
             14.4,
+            14.4,
             14.4
           ],
           "close": [
@@ -20463,7 +20547,6 @@
             3.3,
             3.3,
             3.3,
-            3.3,
             3.6,
             3.6,
             3.6,
@@ -20609,6 +20692,7 @@
             12.0,
             12.0,
             12.0,
+            14.4,
             14.4,
             14.4,
             14.4,
@@ -20616,7 +20700,6 @@
             14.4
           ],
           "volume": [
-            0,
             0,
             0,
             0,
@@ -20784,12 +20867,12 @@
             0,
             0,
             0,
+            0,
             0
           ]
         },
         "SOL_USDC-25SEP26-100-C": {
           "ticks": [
-            1786827600000,
             1786831200000,
             1786834800000,
             1786838400000,
@@ -20957,10 +21040,10 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
-            0.3,
             0.3,
             0.3,
             0.3,
@@ -21128,10 +21211,10 @@
             3.9,
             3.9,
             3.9,
+            3.9,
             3.9
           ],
           "high": [
-            0.3,
             0.3,
             0.3,
             0.3,
@@ -21299,10 +21382,10 @@
             3.9,
             3.9,
             3.9,
+            3.9,
             3.9
           ],
           "low": [
-            0.3,
             0.3,
             0.3,
             0.3,
@@ -21470,10 +21553,10 @@
             3.9,
             3.9,
             3.9,
+            3.9,
             3.9
           ],
           "close": [
-            0.3,
             0.3,
             0.3,
             0.3,
@@ -21641,10 +21724,10 @@
             3.9,
             3.9,
             3.9,
+            3.9,
             3.9
           ],
           "volume": [
-            0,
             0,
             0,
             0,
@@ -21812,6 +21895,7 @@
             0,
             0,
             0,
+            0,
             0
           ]
         }
@@ -21940,6 +22024,16 @@
           }
         ],
         "SOL_USDC-28AUG26-100-C": [
+          {
+            "ts": 1787436047273,
+            "direction": "buy",
+            "price": 1.7,
+            "iv": 92.48,
+            "amount": 10.0,
+            "premium_usd": 17.0,
+            "notional_usd": 929.87,
+            "trade_id": "USDC-54172416"
+          },
           {
             "ts": 1787416277402,
             "direction": "buy",
@@ -23289,6 +23383,16 @@
         ],
         "SOL_USDC-28AUG26-96-C": [
           {
+            "ts": 1787436199102,
+            "direction": "sell",
+            "price": 2.6,
+            "iv": 87.32,
+            "amount": 10.0,
+            "premium_usd": 26.0,
+            "notional_usd": 927.86,
+            "trade_id": "USDC-54173417"
+          },
+          {
             "ts": 1787424818756,
             "direction": "buy",
             "price": 2.6,
@@ -23903,6 +24007,16 @@
         ],
         "SOL_USDC-28AUG26-88-C": [
           {
+            "ts": 1787436145839,
+            "direction": "sell",
+            "price": 6.6,
+            "iv": 84.75,
+            "amount": 10.0,
+            "premium_usd": 66.0,
+            "notional_usd": 927.9,
+            "trade_id": "USDC-54172865"
+          },
+          {
             "ts": 1787416537759,
             "direction": "sell",
             "price": 7.9,
@@ -24087,6 +24201,16 @@
         ],
         "SOL_USDC-28AUG26-94-C": [
           {
+            "ts": 1787436198102,
+            "direction": "sell",
+            "price": 3.3,
+            "iv": 85.08,
+            "amount": 10.0,
+            "premium_usd": 33.0,
+            "notional_usd": 928.23,
+            "trade_id": "USDC-54173399"
+          },
+          {
             "ts": 1787424818683,
             "direction": "buy",
             "price": 3.4,
@@ -24195,26 +24319,6 @@
             "premium_usd": 31.0,
             "notional_usd": 936.73,
             "trade_id": "USDC-53803817"
-          },
-          {
-            "ts": 1787350167338,
-            "direction": "sell",
-            "price": 3.4,
-            "iv": 66.07,
-            "amount": 10.0,
-            "premium_usd": 34.0,
-            "notional_usd": 942.41,
-            "trade_id": "USDC-53799607"
-          },
-          {
-            "ts": 1787349677215,
-            "direction": "sell",
-            "price": 3.1,
-            "iv": 65.28,
-            "amount": 10.0,
-            "premium_usd": 31.0,
-            "notional_usd": 937.16,
-            "trade_id": "USDC-53794839"
           }
         ],
         "SOL_USDC-25DEC26-110-C": [
@@ -24491,16 +24595,6 @@
             "premium_usd": 980.0,
             "notional_usd": 20114.12,
             "trade_id": "USDC-53922044"
-          },
-          {
-            "ts": 1787349793165,
-            "direction": "buy",
-            "price": 1.9,
-            "iv": 69.21,
-            "amount": 250.0,
-            "premium_usd": 475.0,
-            "notional_usd": 23522.97,
-            "trade_id": "USDC-53795848"
           }
         ],
         "SOL_USDC-28AUG26-95-P": [
@@ -25033,6 +25127,16 @@
         ],
         "SOL_USDC-28AUG26-94-P": [
           {
+            "ts": 1787436067235,
+            "direction": "buy",
+            "price": 4.3,
+            "iv": 83.39,
+            "amount": 10.0,
+            "premium_usd": 43.0,
+            "notional_usd": 930.16,
+            "trade_id": "USDC-54172560"
+          },
+          {
             "ts": 1787424815557,
             "direction": "buy",
             "price": 3.2,
@@ -25131,16 +25235,6 @@
             "premium_usd": 31.0,
             "notional_usd": 939.65,
             "trade_id": "USDC-53802641"
-          },
-          {
-            "ts": 1787349711828,
-            "direction": "buy",
-            "price": 3.4,
-            "iv": 65.02,
-            "amount": 10.0,
-            "premium_usd": 34.0,
-            "notional_usd": 936.57,
-            "trade_id": "USDC-53795080"
           }
         ],
         "SOL_USDC-23AUG26-95-P": [
@@ -25621,19 +25715,19 @@
     },
     "HYPE": {
       "currency": "HYPE",
-      "spot": 78.201,
-      "total_volume": 20340.0,
-      "total_volume_usd": 55753.039999999986,
+      "spot": 79.168,
+      "total_volume": 19990.0,
+      "total_volume_usd": 55543.75999999997,
       "total_oi": 341370.0,
-      "call_volume": 7180.0,
-      "put_volume": 13160.0,
-      "active_contracts": 136,
+      "call_volume": 7090.0,
+      "put_volume": 12900.0,
+      "active_contracts": 137,
       "by_expiry": [
         {
           "expiry": "23AUG26",
-          "call": 2550.0,
-          "put": 4030.0,
-          "usd": 6673.8499999999985,
+          "call": 2450.0,
+          "put": 3920.0,
+          "usd": 6444.570000000001,
           "oi": 6490.0
         },
         {
@@ -25652,16 +25746,16 @@
         },
         {
           "expiry": "25SEP26",
-          "call": 1820.0,
+          "call": 1830.0,
           "put": 1520.0,
-          "usd": 17117.07,
+          "usd": 17140.07,
           "oi": 130290.0
         },
         {
           "expiry": "28AUG26",
           "call": 1070.0,
-          "put": 2610.0,
-          "usd": 5457.719999999998,
+          "put": 2460.0,
+          "usd": 5454.719999999998,
           "oi": 123180.0
         },
         {
@@ -25713,7 +25807,7 @@
           "call_oi": 10.0,
           "put_oi": 4200.0,
           "call_vol": 0.0,
-          "put_vol": 860.0
+          "put_vol": 710.0
         },
         {
           "strike": 50.0,
@@ -25867,14 +25961,14 @@
           "call_oi": 5030.0,
           "put_oi": 1610.0,
           "call_vol": 220.0,
-          "put_vol": 510.0
+          "put_vol": 500.0
         },
         {
           "strike": 76.0,
           "call_oi": 3030.0,
           "put_oi": 1750.0,
           "call_vol": 800.0,
-          "put_vol": 690.0
+          "put_vol": 680.0
         },
         {
           "strike": 77.0,
@@ -25888,13 +25982,13 @@
           "call_oi": 4560.0,
           "put_oi": 1070.0,
           "call_vol": 720.0,
-          "put_vol": 570.0
+          "put_vol": 490.0
         },
         {
           "strike": 79.0,
           "call_oi": 100.0,
           "put_oi": 600.0,
-          "call_vol": 130.0,
+          "call_vol": 30.0,
           "put_vol": 600.0
         },
         {
@@ -25902,7 +25996,7 @@
           "call_oi": 6120.0,
           "put_oi": 1340.0,
           "call_vol": 1880.0,
-          "put_vol": 360.0
+          "put_vol": 350.0
         },
         {
           "strike": 81.0,
@@ -25999,7 +26093,7 @@
           "strike": 95.0,
           "call_oi": 2340.0,
           "put_oi": 120.0,
-          "call_vol": 50.0,
+          "call_vol": 60.0,
           "put_vol": 30.0
         },
         {
@@ -26270,6 +26364,21 @@
         }
       ],
       "trades": [
+        {
+          "ts": 1787436477911,
+          "instrument": "HYPE_USDC-25SEP26-95-C",
+          "expiry": "25SEP26",
+          "strike": 95.0,
+          "type": "C",
+          "direction": "buy",
+          "price": 2.3,
+          "iv": 76.48,
+          "amount": 10.0,
+          "premium_usd": 23.0,
+          "notional_usd": 785.37,
+          "trade_id": "USDC-54175073",
+          "is_whale": false
+        },
         {
           "ts": 1787433246795,
           "instrument": "HYPE_USDC-25DEC26-48-P",
@@ -27754,37 +27863,21 @@
           "notional_usd": 7762.6,
           "trade_id": "USDC-54080097",
           "is_whale": false
-        },
-        {
-          "ts": 1787402721511,
-          "instrument": "HYPE_USDC-23AUG26-77-C",
-          "expiry": "23AUG26",
-          "strike": 77.0,
-          "type": "C",
-          "direction": "buy",
-          "price": 1.53,
-          "iv": 69.19,
-          "amount": 10.0,
-          "premium_usd": 15.3,
-          "notional_usd": 779.22,
-          "trade_id": "USDC-54079087",
-          "is_whale": false
         }
       ],
       "trade_stats": {
         "count": 100,
-        "avg_notional": 2732.34,
-        "whale_threshold": 13661.69,
-        "buy_notional": 120733.6,
+        "avg_notional": 2732.4,
+        "whale_threshold": 13662.0,
+        "buy_notional": 120739.75,
         "sell_notional": 152500.22,
         "buy_pct": 44.2,
-        "latest_iv": 72.39,
-        "avg_iv": 75.51
+        "latest_iv": 76.48,
+        "avg_iv": 75.58
       },
       "charts": {
         "HYPE_USDC-25DEC26-58-P": {
           "ticks": [
-            1786827600000,
             1786831200000,
             1786834800000,
             1786838400000,
@@ -27952,10 +28045,10 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
-            9.57,
             9.57,
             9.57,
             9.11,
@@ -28123,10 +28216,10 @@
             3.43,
             3.43,
             3.43,
+            3.43,
             3.43
           ],
           "high": [
-            9.57,
             9.57,
             9.57,
             9.11,
@@ -28294,10 +28387,10 @@
             3.43,
             3.43,
             3.43,
+            3.43,
             3.43
           ],
           "low": [
-            9.57,
             9.57,
             9.57,
             9.11,
@@ -28465,10 +28558,10 @@
             3.43,
             3.43,
             3.43,
+            3.43,
             3.43
           ],
           "close": [
-            9.57,
             9.57,
             9.57,
             9.11,
@@ -28636,10 +28729,10 @@
             3.43,
             3.43,
             3.43,
+            3.43,
             3.43
           ],
           "volume": [
-            0,
             0,
             0,
             10.0,
@@ -28807,12 +28900,12 @@
             0,
             0,
             0,
+            0,
             0
           ]
         },
         "HYPE_USDC-25SEP26-58-C": {
           "ticks": [
-            1786827600000,
             1786831200000,
             1786834800000,
             1786838400000,
@@ -28980,10 +29073,10 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
-            3.86,
             3.86,
             3.86,
             3.86,
@@ -29151,10 +29244,10 @@
             25.96,
             25.96,
             25.96,
+            25.96,
             25.96
           ],
           "high": [
-            3.86,
             3.86,
             3.86,
             3.86,
@@ -29304,6 +29397,7 @@
             4.46,
             4.46,
             23.89,
+            25.96,
             25.96,
             25.96,
             25.96,
@@ -29330,7 +29424,6 @@
             3.86,
             3.86,
             3.86,
-            3.86,
             3.91,
             3.91,
             3.91,
@@ -29493,10 +29586,10 @@
             25.96,
             25.96,
             25.96,
+            25.96,
             25.96
           ],
           "close": [
-            3.86,
             3.86,
             3.86,
             3.86,
@@ -29664,10 +29757,10 @@
             25.96,
             25.96,
             25.96,
+            25.96,
             25.96
           ],
           "volume": [
-            0,
             0,
             0,
             0,
@@ -29835,12 +29928,12 @@
             0,
             0,
             0,
+            0,
             0
           ]
         },
         "HYPE_USDC-25DEC26-60-P": {
           "ticks": [
-            1786827600000,
             1786831200000,
             1786834800000,
             1786838400000,
@@ -30008,10 +30101,10 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
-            10.03,
             10.03,
             10.03,
             10.03,
@@ -30179,10 +30272,10 @@
             4.25,
             4.25,
             4.25,
+            4.25,
             4.25
           ],
           "high": [
-            10.03,
             10.03,
             10.03,
             10.03,
@@ -30350,10 +30443,10 @@
             4.25,
             4.25,
             4.25,
+            4.25,
             4.25
           ],
           "low": [
-            10.03,
             10.03,
             10.03,
             10.03,
@@ -30521,10 +30614,10 @@
             4.25,
             4.25,
             4.25,
+            4.25,
             4.25
           ],
           "close": [
-            10.03,
             10.03,
             10.03,
             10.03,
@@ -30692,10 +30785,10 @@
             4.25,
             4.25,
             4.25,
+            4.25,
             4.25
           ],
           "volume": [
-            0,
             0,
             0,
             0,
@@ -30863,12 +30956,12 @@
             0,
             0,
             0,
+            0,
             0
           ]
         },
         "HYPE_USDC-25SEP26-78-C": {
           "ticks": [
-            1786827600000,
             1786831200000,
             1786834800000,
             1786838400000,
@@ -31036,10 +31129,10 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
-            0.276,
             0.276,
             0.276,
             0.276,
@@ -31207,10 +31300,10 @@
             6.77,
             6.77,
             6.77,
+            6.77,
             6.77
           ],
           "high": [
-            0.276,
             0.276,
             0.276,
             0.276,
@@ -31378,10 +31471,10 @@
             6.77,
             6.77,
             6.77,
+            6.77,
             6.77
           ],
           "low": [
-            0.276,
             0.276,
             0.276,
             0.276,
@@ -31549,10 +31642,10 @@
             6.77,
             6.77,
             6.77,
+            6.77,
             6.77
           ],
           "close": [
-            0.276,
             0.276,
             0.276,
             0.276,
@@ -31720,10 +31813,10 @@
             6.77,
             6.77,
             6.77,
+            6.77,
             6.77
           ],
           "volume": [
-            0,
             0,
             0,
             0,
@@ -31891,6 +31984,7 @@
             0,
             0,
             0,
+            0,
             0
           ]
         },
@@ -31962,7 +32056,8 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
             10.11,
@@ -32015,6 +32110,7 @@
             13.5,
             13.5,
             13.5,
+            17.5,
             17.5,
             17.5,
             17.5,
@@ -32100,6 +32196,7 @@
             17.5,
             17.5,
             17.5,
+            17.5,
             17.5
           ],
           "low": [
@@ -32153,6 +32250,7 @@
             13.5,
             13.5,
             13.5,
+            17.5,
             17.5,
             17.5,
             17.5,
@@ -32238,6 +32336,7 @@
             17.5,
             17.5,
             17.5,
+            17.5,
             17.5
           ],
           "volume": [
@@ -32307,12 +32406,12 @@
             0,
             0,
             0,
+            0,
             0
           ]
         },
         "HYPE_USDC-25SEP26-66-C": {
           "ticks": [
-            1786827600000,
             1786831200000,
             1786834800000,
             1786838400000,
@@ -32480,10 +32579,10 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
-            1.75,
             1.75,
             1.75,
             1.75,
@@ -32651,10 +32750,10 @@
             15.82,
             15.82,
             15.82,
+            15.82,
             15.82
           ],
           "high": [
-            1.75,
             1.75,
             1.75,
             1.75,
@@ -32822,10 +32921,10 @@
             15.82,
             15.82,
             15.82,
+            15.82,
             15.82
           ],
           "low": [
-            1.75,
             1.75,
             1.75,
             1.75,
@@ -32993,10 +33092,10 @@
             15.82,
             15.82,
             15.82,
+            15.82,
             15.82
           ],
           "close": [
-            1.75,
             1.75,
             1.75,
             1.75,
@@ -33164,10 +33263,10 @@
             15.82,
             15.82,
             15.82,
+            15.82,
             15.82
           ],
           "volume": [
-            0,
             0,
             0,
             0,
@@ -33335,12 +33434,12 @@
             0,
             0,
             0,
+            0,
             0
           ]
         },
         "HYPE_USDC-25SEP26-75-C": {
           "ticks": [
-            1786827600000,
             1786831200000,
             1786834800000,
             1786838400000,
@@ -33508,10 +33607,10 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
-            0.71,
             0.71,
             0.71,
             0.71,
@@ -33679,10 +33778,10 @@
             10.95,
             10.95,
             10.95,
+            10.95,
             10.95
           ],
           "high": [
-            0.71,
             0.71,
             0.71,
             0.71,
@@ -33850,10 +33949,10 @@
             10.95,
             10.95,
             10.95,
+            10.95,
             10.95
           ],
           "low": [
-            0.71,
             0.71,
             0.71,
             0.71,
@@ -34021,10 +34120,10 @@
             10.95,
             10.95,
             10.95,
+            10.95,
             10.95
           ],
           "close": [
-            0.71,
             0.71,
             0.71,
             0.71,
@@ -34192,10 +34291,10 @@
             10.95,
             10.95,
             10.95,
+            10.95,
             10.95
           ],
           "volume": [
-            0,
             0,
             0,
             0,
@@ -34363,12 +34462,12 @@
             0,
             0,
             0,
+            0,
             0
           ]
         },
         "HYPE_USDC-25SEP26-76-C": {
           "ticks": [
-            1786827600000,
             1786831200000,
             1786834800000,
             1786838400000,
@@ -34536,10 +34635,10 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
-            0.38,
             0.38,
             0.38,
             0.38,
@@ -34694,6 +34793,7 @@
             7.89,
             7.72,
             7.72,
+            7.04,
             7.04,
             7.04,
             7.04,
@@ -34814,7 +34914,6 @@
             0.38,
             0.38,
             0.38,
-            0.38,
             4.72,
             4.72,
             4.72,
@@ -34878,10 +34977,10 @@
             7.04,
             7.04,
             7.04,
+            7.04,
             7.04
           ],
           "low": [
-            0.38,
             0.38,
             0.38,
             0.38,
@@ -35049,10 +35148,10 @@
             7.04,
             7.04,
             7.04,
+            7.04,
             7.04
           ],
           "close": [
-            0.38,
             0.38,
             0.38,
             0.38,
@@ -35220,10 +35319,10 @@
             7.04,
             7.04,
             7.04,
+            7.04,
             7.04
           ],
           "volume": [
-            0,
             0,
             0,
             0,
@@ -35391,12 +35490,12 @@
             0,
             0,
             0,
+            0,
             0
           ]
         },
         "HYPE_USDC-25SEP26-70-C": {
           "ticks": [
-            1786827600000,
             1786831200000,
             1786834800000,
             1786838400000,
@@ -35564,10 +35663,10 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
-            1.19,
             1.19,
             1.19,
             1.19,
@@ -35735,10 +35834,10 @@
             12.78,
             12.78,
             12.78,
+            12.78,
             12.78
           ],
           "high": [
-            1.19,
             1.19,
             1.19,
             1.19,
@@ -35906,10 +36005,10 @@
             12.78,
             12.78,
             12.78,
+            12.78,
             12.78
           ],
           "low": [
-            1.19,
             1.19,
             1.19,
             1.19,
@@ -36077,10 +36176,10 @@
             12.78,
             12.78,
             12.78,
+            12.78,
             12.78
           ],
           "close": [
-            1.19,
             1.19,
             1.19,
             1.19,
@@ -36248,10 +36347,10 @@
             12.78,
             12.78,
             12.78,
+            12.78,
             12.78
           ],
           "volume": [
-            0,
             0,
             0,
             0,
@@ -36419,6 +36518,7 @@
             0,
             0,
             0,
+            0,
             0
           ]
         },
@@ -36491,7 +36591,8 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
             16.7,
@@ -36548,6 +36649,7 @@
             12.72,
             12.72,
             12.72,
+            12.43,
             12.43,
             12.43,
             12.43,
@@ -36631,6 +36733,7 @@
             12.43,
             12.43,
             12.43,
+            12.43,
             12.43
           ],
           "low": [
@@ -36688,6 +36791,7 @@
             12.72,
             12.72,
             12.72,
+            12.43,
             12.43,
             12.43,
             12.43,
@@ -36771,6 +36875,7 @@
             12.43,
             12.43,
             12.43,
+            12.43,
             12.43
           ],
           "volume": [
@@ -36841,12 +36946,12 @@
             0,
             0,
             0,
+            0,
             0
           ]
         },
         "HYPE_USDC-25SEP26-85-P": {
           "ticks": [
-            1786827600000,
             1786831200000,
             1786834800000,
             1786838400000,
@@ -37014,10 +37119,10 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
-            21.9,
             21.9,
             21.9,
             21.9,
@@ -37170,6 +37275,7 @@
             11.2,
             11.2,
             10.39,
+            9.98,
             9.98,
             9.98,
             9.98,
@@ -37327,7 +37433,6 @@
             21.9,
             21.9,
             21.9,
-            21.9,
             11.85,
             11.85,
             11.85,
@@ -37341,6 +37446,7 @@
             11.2,
             11.2,
             10.39,
+            9.98,
             9.98,
             9.98,
             9.98,
@@ -37498,7 +37604,6 @@
             21.9,
             21.9,
             21.9,
-            21.9,
             11.85,
             11.85,
             11.85,
@@ -37511,6 +37616,7 @@
             11.2,
             11.2,
             11.2,
+            9.98,
             9.98,
             9.98,
             9.98,
@@ -37669,7 +37775,6 @@
             21.9,
             21.9,
             21.9,
-            21.9,
             11.85,
             11.85,
             11.85,
@@ -37682,6 +37787,7 @@
             11.2,
             11.2,
             11.2,
+            9.98,
             9.98,
             9.98,
             9.98,
@@ -37701,7 +37807,6 @@
             9.98
           ],
           "volume": [
-            0,
             0,
             0,
             0,
@@ -37869,12 +37974,12 @@
             0,
             0,
             0,
+            0,
             0
           ]
         },
         "HYPE_USDC-25SEP26-80-C": {
           "ticks": [
-            1786827600000,
             1786831200000,
             1786834800000,
             1786838400000,
@@ -38042,10 +38147,10 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
-            0.232,
             0.232,
             0.232,
             0.232,
@@ -38213,10 +38318,10 @@
             8.0,
             8.0,
             8.0,
+            8.0,
             8.0
           ],
           "high": [
-            0.232,
             0.232,
             0.232,
             0.232,
@@ -38384,10 +38489,10 @@
             8.0,
             8.0,
             8.0,
+            8.0,
             8.0
           ],
           "low": [
-            0.232,
             0.232,
             0.232,
             0.232,
@@ -38555,10 +38660,10 @@
             8.0,
             8.0,
             8.0,
+            8.0,
             8.0
           ],
           "close": [
-            0.232,
             0.232,
             0.232,
             0.232,
@@ -38726,10 +38831,10 @@
             8.0,
             8.0,
             8.0,
+            8.0,
             8.0
           ],
           "volume": [
-            0,
             0,
             0,
             0,
@@ -38897,12 +39002,12 @@
             0,
             0,
             0,
+            0,
             0
           ]
         },
         "HYPE_USDC-25DEC26-80-C": {
           "ticks": [
-            1786827600000,
             1786831200000,
             1786834800000,
             1786838400000,
@@ -39070,10 +39175,10 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
-            3.07,
             3.07,
             3.07,
             3.07,
@@ -39241,10 +39346,10 @@
             12.96,
             12.96,
             12.96,
+            12.96,
             12.96
           ],
           "high": [
-            3.07,
             3.07,
             3.07,
             3.07,
@@ -39412,10 +39517,10 @@
             12.96,
             12.96,
             12.96,
+            12.96,
             12.96
           ],
           "low": [
-            3.07,
             3.07,
             3.07,
             3.07,
@@ -39583,10 +39688,10 @@
             12.96,
             12.96,
             12.96,
+            12.96,
             12.96
           ],
           "close": [
-            3.07,
             3.07,
             3.07,
             3.07,
@@ -39754,10 +39859,10 @@
             12.96,
             12.96,
             12.96,
+            12.96,
             12.96
           ],
           "volume": [
-            0,
             0,
             0,
             0,
@@ -39925,12 +40030,12 @@
             0,
             0,
             0,
+            0,
             0
           ]
         },
         "HYPE_USDC-25DEC26-48-P": {
           "ticks": [
-            1786827600000,
             1786831200000,
             1786834800000,
             1786838400000,
@@ -40098,10 +40203,10 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
-            4.93,
             4.93,
             4.93,
             4.93,
@@ -40269,10 +40374,10 @@
             1.55,
             1.55,
             1.55,
-            1.49
+            1.49,
+            1.53
           ],
           "high": [
-            4.93,
             4.93,
             4.93,
             4.93,
@@ -40440,6 +40545,7 @@
             1.55,
             1.55,
             1.55,
+            1.53,
             1.53
           ],
           "low": [
@@ -40479,7 +40585,6 @@
             4.93,
             4.93,
             4.93,
-            4.93,
             3.55,
             3.55,
             3.55,
@@ -40611,10 +40716,10 @@
             1.55,
             1.55,
             1.55,
-            1.49
+            1.49,
+            1.53
           ],
           "close": [
-            4.93,
             4.93,
             4.93,
             4.93,
@@ -40782,10 +40887,10 @@
             1.55,
             1.55,
             1.55,
+            1.53,
             1.53
           ],
           "volume": [
-            0,
             0,
             0,
             0,
@@ -40953,7 +41058,8 @@
             0,
             0,
             0,
-            500.0
+            500.0,
+            0
           ]
         },
         "HYPE_USDC-23AUG26-82-P": {
@@ -40974,7 +41080,8 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
             2.0,
@@ -40984,6 +41091,7 @@
             2.32,
             2.32,
             2.32,
+            2.4,
             2.4,
             2.4,
             2.4,
@@ -41012,6 +41120,7 @@
             2.4,
             2.4,
             2.4,
+            2.4,
             2.4
           ],
           "low": [
@@ -41022,6 +41131,7 @@
             2.32,
             2.32,
             2.32,
+            2.4,
             2.4,
             2.4,
             2.4,
@@ -41050,6 +41160,7 @@
             2.4,
             2.4,
             2.4,
+            2.4,
             2.4
           ],
           "volume": [
@@ -41069,12 +41180,12 @@
             0,
             0,
             0,
+            0,
             0
           ]
         },
         "HYPE_USDC-28AUG26-80-C": {
           "ticks": [
-            1786827600000,
             1786831200000,
             1786834800000,
             1786838400000,
@@ -41242,10 +41353,10 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
-            0.16,
             0.16,
             0.16,
             0.16,
@@ -41413,10 +41524,10 @@
             2.27,
             2.27,
             2.27,
+            2.27,
             2.27
           ],
           "high": [
-            0.16,
             0.16,
             0.16,
             0.16,
@@ -41584,10 +41695,10 @@
             2.27,
             2.27,
             2.27,
+            2.27,
             2.27
           ],
           "low": [
-            0.16,
             0.16,
             0.16,
             0.16,
@@ -41755,10 +41866,10 @@
             2.27,
             2.27,
             2.27,
+            2.27,
             2.27
           ],
           "close": [
-            0.16,
             0.16,
             0.16,
             0.16,
@@ -41926,10 +42037,10 @@
             2.27,
             2.27,
             2.27,
+            2.27,
             2.27
           ],
           "volume": [
-            0,
             0,
             0,
             0,
@@ -42097,6 +42208,7 @@
             0,
             0,
             0,
+            0,
             0
           ]
         },
@@ -42168,7 +42280,8 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
             11.73,
@@ -42237,6 +42350,7 @@
             9.56,
             9.56,
             9.56,
+            9.56,
             9.56
           ],
           "high": [
@@ -42293,6 +42407,7 @@
             8.44,
             8.32,
             8.28,
+            9.56,
             9.56,
             9.56,
             9.56,
@@ -42375,6 +42490,7 @@
             9.56,
             9.56,
             9.56,
+            9.56,
             9.56
           ],
           "close": [
@@ -42431,6 +42547,7 @@
             8.26,
             8.28,
             8.28,
+            9.56,
             9.56,
             9.56,
             9.56,
@@ -42513,12 +42630,12 @@
             0,
             0,
             0,
+            0,
             0
           ]
         },
         "HYPE_USDC-25DEC26-100-C": {
           "ticks": [
-            1786827600000,
             1786831200000,
             1786834800000,
             1786838400000,
@@ -42686,10 +42803,10 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
-            1.34,
             1.34,
             1.34,
             1.34,
@@ -42857,10 +42974,10 @@
             7.21,
             7.21,
             7.21,
+            7.21,
             7.21
           ],
           "high": [
-            1.34,
             1.34,
             1.34,
             1.34,
@@ -43028,10 +43145,10 @@
             7.21,
             7.21,
             7.21,
+            7.21,
             7.21
           ],
           "low": [
-            1.34,
             1.34,
             1.34,
             1.34,
@@ -43199,10 +43316,10 @@
             7.21,
             7.21,
             7.21,
+            7.21,
             7.21
           ],
           "close": [
-            1.34,
             1.34,
             1.34,
             1.34,
@@ -43370,10 +43487,10 @@
             7.21,
             7.21,
             7.21,
+            7.21,
             7.21
           ],
           "volume": [
-            0,
             0,
             0,
             0,
@@ -43541,12 +43658,12 @@
             0,
             0,
             0,
+            0,
             0
           ]
         },
         "HYPE_USDC-25DEC26-56-P": {
           "ticks": [
-            1786827600000,
             1786831200000,
             1786834800000,
             1786838400000,
@@ -43714,10 +43831,10 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
-            8.7,
             8.7,
             8.7,
             8.7,
@@ -43885,10 +44002,10 @@
             3.39,
             3.39,
             3.39,
+            3.39,
             3.39
           ],
           "high": [
-            8.7,
             8.7,
             8.7,
             8.7,
@@ -44056,10 +44173,10 @@
             3.39,
             3.39,
             3.39,
+            3.39,
             3.39
           ],
           "low": [
-            8.7,
             8.7,
             8.7,
             8.7,
@@ -44227,10 +44344,10 @@
             3.39,
             3.39,
             3.39,
+            3.39,
             3.39
           ],
           "close": [
-            8.7,
             8.7,
             8.7,
             8.7,
@@ -44398,10 +44515,10 @@
             3.39,
             3.39,
             3.39,
+            3.39,
             3.39
           ],
           "volume": [
-            0,
             0,
             0,
             0,
@@ -44569,12 +44686,12 @@
             0,
             0,
             0,
+            0,
             0
           ]
         },
         "HYPE_USDC-28AUG26-72-C": {
           "ticks": [
-            1786827600000,
             1786831200000,
             1786834800000,
             1786838400000,
@@ -44742,10 +44859,10 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
-            0.048,
             0.048,
             0.048,
             0.048,
@@ -44913,10 +45030,10 @@
             7.4,
             7.4,
             7.4,
+            7.4,
             7.4
           ],
           "high": [
-            0.048,
             0.048,
             0.048,
             0.048,
@@ -45084,10 +45201,10 @@
             7.4,
             7.4,
             7.4,
+            7.4,
             7.4
           ],
           "low": [
-            0.048,
             0.048,
             0.048,
             0.048,
@@ -45255,10 +45372,10 @@
             7.4,
             7.4,
             7.4,
+            7.4,
             7.4
           ],
           "close": [
-            0.048,
             0.048,
             0.048,
             0.048,
@@ -45426,10 +45543,10 @@
             7.4,
             7.4,
             7.4,
+            7.4,
             7.4
           ],
           "volume": [
-            0,
             0,
             0,
             0,
@@ -45597,12 +45714,12 @@
             0,
             0,
             0,
+            0,
             0
           ]
         },
         "HYPE_USDC-25SEP26-90-C": {
           "ticks": [
-            1786827600000,
             1786831200000,
             1786834800000,
             1786838400000,
@@ -45770,10 +45887,10 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
-            0.244,
             0.244,
             0.244,
             0.244,
@@ -45941,6 +46058,7 @@
             2.27,
             2.27,
             3.89,
+            3.9,
             3.9
           ],
           "high": [
@@ -46040,7 +46158,6 @@
             0.244,
             0.244,
             0.244,
-            0.244,
             1.26,
             1.26,
             1.27,
@@ -46111,6 +46228,7 @@
             2.27,
             2.27,
             2.27,
+            3.9,
             3.9,
             3.9
           ],
@@ -46211,7 +46329,6 @@
             0.244,
             0.244,
             0.244,
-            0.244,
             1.26,
             1.26,
             1.24,
@@ -46283,10 +46400,10 @@
             2.27,
             2.27,
             3.89,
+            3.9,
             3.9
           ],
           "close": [
-            0.244,
             0.244,
             0.244,
             0.244,
@@ -46454,10 +46571,10 @@
             2.27,
             2.27,
             3.9,
+            3.9,
             3.9
           ],
           "volume": [
-            0,
             0,
             0,
             0,
@@ -46625,6 +46742,7 @@
             0,
             0,
             200.0,
+            0,
             0
           ]
         },
@@ -46659,7 +46777,8 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
             1.67,
@@ -46685,6 +46804,7 @@
             1.2,
             1.09,
             1.07,
+            1.5,
             1.5,
             1.5,
             1.5,
@@ -46723,6 +46843,7 @@
             1.5,
             1.5,
             1.5,
+            1.5,
             1.5
           ],
           "low": [
@@ -46749,6 +46870,7 @@
             0.66,
             0.87,
             1.04,
+            1.5,
             1.5,
             1.5,
             1.5,
@@ -46787,6 +46909,7 @@
             1.5,
             1.5,
             1.5,
+            1.5,
             1.5
           ],
           "volume": [
@@ -46819,12 +46942,12 @@
             0,
             0,
             0,
+            0,
             0
           ]
         },
         "HYPE_USDC-25DEC26-120-C": {
           "ticks": [
-            1786827600000,
             1786831200000,
             1786834800000,
             1786838400000,
@@ -46992,10 +47115,10 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
-            0.492,
             0.492,
             0.492,
             0.492,
@@ -47157,6 +47280,7 @@
             3.07,
             3.07,
             3.73,
+            3.7,
             3.7,
             3.7,
             3.7,
@@ -47209,7 +47333,6 @@
             0.492,
             0.492,
             0.492,
-            0.492,
             0.55,
             0.55,
             0.55,
@@ -47334,10 +47457,10 @@
             3.7,
             3.7,
             3.7,
+            3.7,
             3.7
           ],
           "low": [
-            0.492,
             0.492,
             0.492,
             0.492,
@@ -47498,6 +47621,7 @@
             3.07,
             3.07,
             3.07,
+            3.7,
             3.7,
             3.7,
             3.7,
@@ -47551,7 +47675,6 @@
             0.492,
             0.492,
             0.492,
-            0.492,
             0.55,
             0.55,
             0.55,
@@ -47676,10 +47799,10 @@
             3.7,
             3.7,
             3.7,
+            3.7,
             3.7
           ],
           "volume": [
-            0,
             0,
             0,
             0,
@@ -47847,6 +47970,7 @@
             0,
             0,
             0,
+            0,
             0
           ]
         },
@@ -47873,7 +47997,8 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
             1.36,
@@ -47890,6 +48015,7 @@
             1.17,
             1.53,
             1.48,
+            1.54,
             1.54,
             1.54,
             1.54,
@@ -47921,6 +48047,7 @@
             1.54,
             1.54,
             1.54,
+            1.54,
             1.54
           ],
           "low": [
@@ -47938,6 +48065,7 @@
             1.17,
             1.53,
             1.38,
+            1.54,
             1.54,
             1.54,
             1.54,
@@ -47969,6 +48097,7 @@
             1.54,
             1.54,
             1.54,
+            1.54,
             1.54
           ],
           "volume": [
@@ -47987,6 +48116,7 @@
             0,
             280.0,
             30.0,
+            0,
             0,
             0,
             0,
@@ -48023,7 +48153,8 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
             1.69,
@@ -48051,6 +48182,7 @@
             1.28,
             1.28,
             1.28,
+            1.28,
             1.28
           ],
           "high": [
@@ -48074,6 +48206,7 @@
             1.44,
             1.17,
             1.17,
+            1.28,
             1.28,
             1.28,
             1.28,
@@ -48107,6 +48240,7 @@
             1.28,
             1.28,
             1.28,
+            1.28,
             1.28
           ],
           "close": [
@@ -48130,6 +48264,7 @@
             1.4,
             1.17,
             1.17,
+            1.28,
             1.28,
             1.28,
             1.28,
@@ -48159,6 +48294,7 @@
             20.0,
             0,
             130.0,
+            0,
             0,
             0,
             0,
@@ -48223,7 +48359,8 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
             28.01,
@@ -48268,6 +48405,7 @@
             20.57,
             21.02,
             21.02,
+            23.67,
             23.67,
             23.67,
             23.67,
@@ -48339,6 +48477,7 @@
             23.67,
             23.67,
             23.67,
+            23.67,
             23.67
           ],
           "low": [
@@ -48384,6 +48523,7 @@
             20.57,
             21.02,
             21.02,
+            23.67,
             23.67,
             23.67,
             23.67,
@@ -48455,6 +48595,7 @@
             23.67,
             23.67,
             23.67,
+            23.67,
             23.67
           ],
           "volume": [
@@ -48501,6 +48642,7 @@
             10.0,
             0,
             10.0,
+            0,
             0,
             0,
             0,
@@ -48589,7 +48731,8 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
             2.63,
@@ -48663,6 +48806,7 @@
             3.15,
             3.15,
             3.15,
+            3.15,
             3.15
           ],
           "high": [
@@ -48727,6 +48871,7 @@
             3.88,
             3.88,
             3.88,
+            3.15,
             3.15,
             3.15,
             3.15,
@@ -48811,6 +48956,7 @@
             3.15,
             3.15,
             3.15,
+            3.15,
             3.15
           ],
           "close": [
@@ -48875,6 +49021,7 @@
             3.88,
             3.88,
             3.88,
+            3.15,
             3.15,
             3.15,
             3.15,
@@ -48959,6 +49106,7 @@
             0,
             0,
             0,
+            0,
             0
           ]
         },
@@ -48976,10 +49124,12 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
             3.36,
+            2.88,
             2.88,
             2.88,
             2.88,
@@ -49006,9 +49156,11 @@
             2.88,
             2.88,
             2.88,
+            2.88,
             2.88
           ],
           "low": [
+            2.88,
             2.88,
             2.88,
             2.88,
@@ -49036,10 +49188,12 @@
             2.88,
             2.88,
             2.88,
+            2.88,
             2.88
           ],
           "volume": [
             200.0,
+            0,
             0,
             0,
             0,
@@ -49112,7 +49266,8 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
             10.18,
@@ -49171,6 +49326,7 @@
             14.64,
             14.64,
             14.64,
+            14.64,
             14.64
           ],
           "high": [
@@ -49215,6 +49371,7 @@
             12.37,
             12.37,
             14.65,
+            14.64,
             14.64,
             14.64,
             14.64,
@@ -49289,6 +49446,7 @@
             14.64,
             14.64,
             14.64,
+            14.64,
             14.64
           ],
           "close": [
@@ -49333,6 +49491,7 @@
             12.37,
             12.37,
             14.65,
+            14.64,
             14.64,
             14.64,
             14.64,
@@ -49407,12 +49566,12 @@
             0,
             0,
             0,
+            0,
             0
           ]
         },
         "HYPE_USDC-25DEC26-70-C": {
           "ticks": [
-            1786827600000,
             1786831200000,
             1786834800000,
             1786838400000,
@@ -49580,10 +49739,10 @@
             1787421600000,
             1787425200000,
             1787428800000,
-            1787432400000
+            1787432400000,
+            1787436000000
           ],
           "open": [
-            4.7,
             4.7,
             4.7,
             4.7,
@@ -49751,10 +49910,10 @@
             19.4,
             19.4,
             19.4,
+            19.4,
             19.4
           ],
           "high": [
-            4.7,
             4.7,
             4.7,
             4.7,
@@ -49922,10 +50081,10 @@
             19.4,
             19.4,
             19.4,
+            19.4,
             19.4
           ],
           "low": [
-            4.7,
             4.7,
             4.7,
             4.7,
@@ -50093,10 +50252,10 @@
             19.4,
             19.4,
             19.4,
+            19.4,
             19.4
           ],
           "close": [
-            4.7,
             4.7,
             4.7,
             4.7,
@@ -50264,10 +50423,10 @@
             19.4,
             19.4,
             19.4,
+            19.4,
             19.4
           ],
           "volume": [
-            0,
             0,
             0,
             0,
@@ -50418,6 +50577,7 @@
             0,
             0,
             30.0,
+            0,
             0,
             0,
             0,
